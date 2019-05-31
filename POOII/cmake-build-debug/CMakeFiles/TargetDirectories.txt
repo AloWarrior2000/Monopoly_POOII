@@ -1,0 +1,3 @@
+/home/alonso/Documentos/Ciclo_3/POOII/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alonso/Documentos/Ciclo_3/POOII/cmake-build-debug/CMakeFiles/POOII.dir
+/home/alonso/Documentos/Ciclo_3/POOII/cmake-build-debug/CMakeFiles/edit_cache.dir
