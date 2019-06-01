@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fabrizio/CLionProjects/Proyecto/accion.h
+string
+-
+casilla.h
+/home/fabrizio/CLionProjects/Proyecto/casilla.h
+
+/home/fabrizio/CLionProjects/Proyecto/casilla.h
+string
+-
+
+/home/fabrizio/CLionProjects/Proyecto/comprables.h
+string
+-
+casilla.h
+/home/fabrizio/CLionProjects/Proyecto/casilla.h
+
+/home/fabrizio/CLionProjects/Proyecto/tablero.cpp
+iostream
+-
+tablero.h
+/home/fabrizio/CLionProjects/Proyecto/tablero.h
+comprables.h
+/home/fabrizio/CLionProjects/Proyecto/comprables.h
+accion.h
+/home/fabrizio/CLionProjects/Proyecto/accion.h
+
+/home/fabrizio/CLionProjects/Proyecto/tablero.h
+casilla.h
+/home/fabrizio/CLionProjects/Proyecto/casilla.h
+
