@@ -11,7 +11,6 @@ class tablero {
 public:
     casilla* tail_;
     casilla* head_;
-    int size;
     tablero();
     void creartablero();
     void imprimirtablero();

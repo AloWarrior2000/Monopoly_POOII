@@ -102,6 +102,24 @@
 		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/comprables.h">
 			<Option target="Proyecto"/>
 		</Unit>
+		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/dado.cpp">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/dado.h">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/juego.cpp">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/juego.h">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/jugador.cpp">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/jugador.h">
+			<Option target="Proyecto"/>
+		</Unit>
 		<Unit filename="/home/fabrizio/CLionProjects/Proyecto/main.cpp">
 			<Option target="Proyecto"/>
 		</Unit>

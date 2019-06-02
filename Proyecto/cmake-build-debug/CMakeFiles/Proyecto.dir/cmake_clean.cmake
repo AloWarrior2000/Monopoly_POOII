@@ -4,6 +4,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto.dir/casilla.cpp.o"
   "CMakeFiles/Proyecto.dir/comprables.cpp.o"
   "CMakeFiles/Proyecto.dir/accion.cpp.o"
+  "CMakeFiles/Proyecto.dir/jugador.cpp.o"
+  "CMakeFiles/Proyecto.dir/dado.cpp.o"
+  "CMakeFiles/Proyecto.dir/juego.cpp.o"
   "Proyecto.pdb"
   "Proyecto"
 )

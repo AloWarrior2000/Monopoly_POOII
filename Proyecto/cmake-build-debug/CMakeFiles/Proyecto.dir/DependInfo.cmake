@@ -7,6 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/fabrizio/CLionProjects/Proyecto/accion.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/accion.cpp.o"
   "/home/fabrizio/CLionProjects/Proyecto/casilla.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/casilla.cpp.o"
   "/home/fabrizio/CLionProjects/Proyecto/comprables.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/comprables.cpp.o"
+  "/home/fabrizio/CLionProjects/Proyecto/dado.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/dado.cpp.o"
+  "/home/fabrizio/CLionProjects/Proyecto/juego.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/juego.cpp.o"
+  "/home/fabrizio/CLionProjects/Proyecto/jugador.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/jugador.cpp.o"
   "/home/fabrizio/CLionProjects/Proyecto/main.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/main.cpp.o"
   "/home/fabrizio/CLionProjects/Proyecto/tablero.cpp" "/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/tablero.cpp.o"
   )

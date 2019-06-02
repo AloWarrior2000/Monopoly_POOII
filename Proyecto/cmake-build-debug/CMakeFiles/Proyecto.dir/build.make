@@ -122,13 +122,55 @@ CMakeFiles/Proyecto.dir/accion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/accion.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/accion.cpp -o CMakeFiles/Proyecto.dir/accion.cpp.s
 
+CMakeFiles/Proyecto.dir/jugador.cpp.o: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/jugador.cpp.o: ../jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto.dir/jugador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/jugador.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/jugador.cpp
+
+CMakeFiles/Proyecto.dir/jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/jugador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/jugador.cpp > CMakeFiles/Proyecto.dir/jugador.cpp.i
+
+CMakeFiles/Proyecto.dir/jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/jugador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/jugador.cpp -o CMakeFiles/Proyecto.dir/jugador.cpp.s
+
+CMakeFiles/Proyecto.dir/dado.cpp.o: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/dado.cpp.o: ../dado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto.dir/dado.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/dado.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/dado.cpp
+
+CMakeFiles/Proyecto.dir/dado.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/dado.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/dado.cpp > CMakeFiles/Proyecto.dir/dado.cpp.i
+
+CMakeFiles/Proyecto.dir/dado.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/dado.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/dado.cpp -o CMakeFiles/Proyecto.dir/dado.cpp.s
+
+CMakeFiles/Proyecto.dir/juego.cpp.o: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/juego.cpp.o: ../juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto.dir/juego.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/juego.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/juego.cpp
+
+CMakeFiles/Proyecto.dir/juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/juego.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/juego.cpp > CMakeFiles/Proyecto.dir/juego.cpp.i
+
+CMakeFiles/Proyecto.dir/juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/juego.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/juego.cpp -o CMakeFiles/Proyecto.dir/juego.cpp.s
+
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
 "CMakeFiles/Proyecto.dir/main.cpp.o" \
 "CMakeFiles/Proyecto.dir/tablero.cpp.o" \
 "CMakeFiles/Proyecto.dir/casilla.cpp.o" \
 "CMakeFiles/Proyecto.dir/comprables.cpp.o" \
-"CMakeFiles/Proyecto.dir/accion.cpp.o"
+"CMakeFiles/Proyecto.dir/accion.cpp.o" \
+"CMakeFiles/Proyecto.dir/jugador.cpp.o" \
+"CMakeFiles/Proyecto.dir/dado.cpp.o" \
+"CMakeFiles/Proyecto.dir/juego.cpp.o"
 
 # External object files for target Proyecto
 Proyecto_EXTERNAL_OBJECTS =
@@ -138,9 +180,12 @@ Proyecto: CMakeFiles/Proyecto.dir/tablero.cpp.o
 Proyecto: CMakeFiles/Proyecto.dir/casilla.cpp.o
 Proyecto: CMakeFiles/Proyecto.dir/comprables.cpp.o
 Proyecto: CMakeFiles/Proyecto.dir/accion.cpp.o
+Proyecto: CMakeFiles/Proyecto.dir/jugador.cpp.o
+Proyecto: CMakeFiles/Proyecto.dir/dado.cpp.o
+Proyecto: CMakeFiles/Proyecto.dir/juego.cpp.o
 Proyecto: CMakeFiles/Proyecto.dir/build.make
 Proyecto: CMakeFiles/Proyecto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Proyecto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Proyecto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

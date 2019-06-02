@@ -12,7 +12,24 @@ CMakeFiles/Proyecto.dir/comprables.cpp.o: ../casilla.h
 CMakeFiles/Proyecto.dir/comprables.cpp.o: ../comprables.cpp
 CMakeFiles/Proyecto.dir/comprables.cpp.o: ../comprables.h
 
+CMakeFiles/Proyecto.dir/dado.cpp.o: ../dado.cpp
+CMakeFiles/Proyecto.dir/dado.cpp.o: ../dado.h
+
+CMakeFiles/Proyecto.dir/juego.cpp.o: ../casilla.h
+CMakeFiles/Proyecto.dir/juego.cpp.o: ../juego.cpp
+CMakeFiles/Proyecto.dir/juego.cpp.o: ../juego.h
+CMakeFiles/Proyecto.dir/juego.cpp.o: ../jugador.h
+CMakeFiles/Proyecto.dir/juego.cpp.o: ../tablero.h
+
+CMakeFiles/Proyecto.dir/jugador.cpp.o: ../casilla.h
+CMakeFiles/Proyecto.dir/jugador.cpp.o: ../dado.h
+CMakeFiles/Proyecto.dir/jugador.cpp.o: ../jugador.cpp
+CMakeFiles/Proyecto.dir/jugador.cpp.o: ../jugador.h
+CMakeFiles/Proyecto.dir/jugador.cpp.o: ../tablero.h
+
 CMakeFiles/Proyecto.dir/main.cpp.o: ../casilla.h
+CMakeFiles/Proyecto.dir/main.cpp.o: ../juego.h
+CMakeFiles/Proyecto.dir/main.cpp.o: ../jugador.h
 CMakeFiles/Proyecto.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Proyecto.dir/main.cpp.o: ../tablero.h
 

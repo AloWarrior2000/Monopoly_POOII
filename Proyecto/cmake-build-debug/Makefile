@@ -204,6 +204,87 @@ comprables.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/comprables.cpp.s
 .PHONY : comprables.cpp.s
 
+dado.o: dado.cpp.o
+
+.PHONY : dado.o
+
+# target to build an object file
+dado.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/dado.cpp.o
+.PHONY : dado.cpp.o
+
+dado.i: dado.cpp.i
+
+.PHONY : dado.i
+
+# target to preprocess a source file
+dado.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/dado.cpp.i
+.PHONY : dado.cpp.i
+
+dado.s: dado.cpp.s
+
+.PHONY : dado.s
+
+# target to generate assembly for a file
+dado.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/dado.cpp.s
+.PHONY : dado.cpp.s
+
+juego.o: juego.cpp.o
+
+.PHONY : juego.o
+
+# target to build an object file
+juego.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/juego.cpp.o
+.PHONY : juego.cpp.o
+
+juego.i: juego.cpp.i
+
+.PHONY : juego.i
+
+# target to preprocess a source file
+juego.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/juego.cpp.i
+.PHONY : juego.cpp.i
+
+juego.s: juego.cpp.s
+
+.PHONY : juego.s
+
+# target to generate assembly for a file
+juego.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/juego.cpp.s
+.PHONY : juego.cpp.s
+
+jugador.o: jugador.cpp.o
+
+.PHONY : jugador.o
+
+# target to build an object file
+jugador.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/jugador.cpp.o
+.PHONY : jugador.cpp.o
+
+jugador.i: jugador.cpp.i
+
+.PHONY : jugador.i
+
+# target to preprocess a source file
+jugador.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/jugador.cpp.i
+.PHONY : jugador.cpp.i
+
+jugador.s: jugador.cpp.s
+
+.PHONY : jugador.s
+
+# target to generate assembly for a file
+jugador.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto.dir/build.make CMakeFiles/Proyecto.dir/jugador.cpp.s
+.PHONY : jugador.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -276,6 +357,15 @@ help:
 	@echo "... comprables.o"
 	@echo "... comprables.i"
 	@echo "... comprables.s"
+	@echo "... dado.o"
+	@echo "... dado.i"
+	@echo "... dado.s"
+	@echo "... juego.o"
+	@echo "... juego.i"
+	@echo "... juego.s"
+	@echo "... jugador.o"
+	@echo "... jugador.i"
+	@echo "... jugador.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

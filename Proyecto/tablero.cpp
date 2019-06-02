@@ -141,9 +141,6 @@ casilla* crear(int i){
 tablero::tablero() {
     head_= nullptr;
     tail_= nullptr;
-    size=0;
-}
-void tablero::creartablero() {
     for(int i=0;i<40;i++) {
         casilla *temp = crear(i);
         //temp= new comprables(temp->numero);
@@ -152,18 +149,18 @@ void tablero::creartablero() {
         else
             head_ = temp;
         tail_ = temp;
-        size++;
     }
     tail_->next=head_;
 }
-void tablero::imprimirtablero() {
-    casilla* next;
-    std::cout<<size;
-    for (casilla* p = head_; p != nullptr; p = next) {
-      next = p->next;
-      std::cout<<p->nombre<<" ";
 
-    }
+void tablero::imprimirtablero() {
+    std::cout<<tail_->nombre;
+    //    casilla* next;
+//    for (casilla* p = head_; p != nullptr; p = next) {
+//      next = p->next;
+//      std::cout<<p->nombre<<" ";
+//
+//    }
 
 }
 

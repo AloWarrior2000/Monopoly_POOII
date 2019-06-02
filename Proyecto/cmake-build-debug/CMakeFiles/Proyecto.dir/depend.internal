@@ -12,8 +12,25 @@ CMakeFiles/Proyecto.dir/comprables.cpp.o
  /home/fabrizio/CLionProjects/Proyecto/casilla.h
  /home/fabrizio/CLionProjects/Proyecto/comprables.cpp
  /home/fabrizio/CLionProjects/Proyecto/comprables.h
+CMakeFiles/Proyecto.dir/dado.cpp.o
+ /home/fabrizio/CLionProjects/Proyecto/dado.cpp
+ /home/fabrizio/CLionProjects/Proyecto/dado.h
+CMakeFiles/Proyecto.dir/juego.cpp.o
+ /home/fabrizio/CLionProjects/Proyecto/casilla.h
+ /home/fabrizio/CLionProjects/Proyecto/juego.cpp
+ /home/fabrizio/CLionProjects/Proyecto/juego.h
+ /home/fabrizio/CLionProjects/Proyecto/jugador.h
+ /home/fabrizio/CLionProjects/Proyecto/tablero.h
+CMakeFiles/Proyecto.dir/jugador.cpp.o
+ /home/fabrizio/CLionProjects/Proyecto/casilla.h
+ /home/fabrizio/CLionProjects/Proyecto/dado.h
+ /home/fabrizio/CLionProjects/Proyecto/jugador.cpp
+ /home/fabrizio/CLionProjects/Proyecto/jugador.h
+ /home/fabrizio/CLionProjects/Proyecto/tablero.h
 CMakeFiles/Proyecto.dir/main.cpp.o
  /home/fabrizio/CLionProjects/Proyecto/casilla.h
+ /home/fabrizio/CLionProjects/Proyecto/juego.h
+ /home/fabrizio/CLionProjects/Proyecto/jugador.h
  /home/fabrizio/CLionProjects/Proyecto/main.cpp
  /home/fabrizio/CLionProjects/Proyecto/tablero.h
 CMakeFiles/Proyecto.dir/tablero.cpp.o
