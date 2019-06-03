@@ -3,8 +3,7 @@
 //
 
 #include "casilla.h"
-casilla::casilla(int x, casilla *n,std::string _nombre) {
-    numero=x;
-    next=n;
+casilla::casilla(std::string _nombre) {
+    next= nullptr;
     nombre=_nombre;
 }

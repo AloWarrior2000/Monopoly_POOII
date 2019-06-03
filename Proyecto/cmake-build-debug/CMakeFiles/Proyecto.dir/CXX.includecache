@@ -10,19 +10,11 @@
 string
 -
 
-/home/fabrizio/CLionProjects/Proyecto/dado.cpp
-cstdlib
--
-random
--
-dado.h
-/home/fabrizio/CLionProjects/Proyecto/dado.h
-ctime
--
+/home/fabrizio/CLionProjects/Proyecto/juego.cpp
 iostream
 -
-
-/home/fabrizio/CLionProjects/Proyecto/dado.h
+juego.h
+/home/fabrizio/CLionProjects/Proyecto/juego.h
 
 /home/fabrizio/CLionProjects/Proyecto/juego.h
 tablero.h
@@ -31,16 +23,6 @@ jugador.h
 /home/fabrizio/CLionProjects/Proyecto/jugador.h
 vector
 -
-
-/home/fabrizio/CLionProjects/Proyecto/jugador.cpp
-iostream
--
-jugador.h
-/home/fabrizio/CLionProjects/Proyecto/jugador.h
-dado.h
-/home/fabrizio/CLionProjects/Proyecto/dado.h
-tablero.h
-/home/fabrizio/CLionProjects/Proyecto/tablero.h
 
 /home/fabrizio/CLionProjects/Proyecto/jugador.h
 string
@@ -49,14 +31,6 @@ casilla.h
 /home/fabrizio/CLionProjects/Proyecto/casilla.h
 vector
 -
-
-/home/fabrizio/CLionProjects/Proyecto/main.cpp
-iostream
--
-tablero.h
-/home/fabrizio/CLionProjects/Proyecto/tablero.h
-juego.h
-/home/fabrizio/CLionProjects/Proyecto/juego.h
 
 /home/fabrizio/CLionProjects/Proyecto/tablero.h
 casilla.h

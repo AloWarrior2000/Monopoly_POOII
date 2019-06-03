@@ -18,7 +18,6 @@ jugador::jugador(int _n, std::string _nombre,casilla* _lugar) {
 void jugador::mover() {
     dado a;
     dado b;
-    int x,y;
     if(a.valor==b.valor){
         seguidas++;
     }

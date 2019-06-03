@@ -4,6 +4,6 @@
 
 #include "accion.h"
 
-accion::accion(int n,casilla* _next,std::string _nombre):casilla(n,_next,_nombre) {
+accion::accion(std::string _nombre):casilla(_nombre) {
     //nombre=_nombre;
 }

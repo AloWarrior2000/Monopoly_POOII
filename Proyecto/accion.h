@@ -12,7 +12,7 @@
 class accion: public casilla {
 public:
     //std::string nombre;
-    accion(int n, casilla* _next,std::string _nombre);
+    accion(std::string _nombre);
 };
 
 

@@ -16,25 +16,25 @@ public:
     int alquiler;
     int dueno;
     bool libre;
-    comprables(int n, casilla* next,std::string _nombre, int _precio, int _alquiler);
+    comprables(std::string _nombre, int _precio, int _alquiler);
 };
 
 class propiedades: public comprables{
 public:
     int casas;
     int precio_casa;
-    propiedades(int n, casilla *next, std::string _nombre, int _precio, int _alquiler,int _precio_casas);
+    propiedades(std::string _nombre, int _precio, int _alquiler,int _precio_casas);
 };
 
 class ferrocarril: public comprables{
 public:
-    ferrocarril(int n, casilla *next, std::string _nombre, int _precio, int _alquiler);
+    ferrocarril(std::string _nombre, int _precio, int _alquiler);
 
 };
 
 class compania:public  comprables{
 public:
-    compania(int n, casilla *next, std::string _nombre, int _precio, int _alquiler);
+    compania(std::string _nombre, int _precio, int _alquiler);
 };
 
 #endif //PROYECTO_COMPRABLES_H

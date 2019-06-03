@@ -11,9 +11,8 @@
 class casilla {
 public:
     std::string nombre;
-    int numero;
     casilla* next;
-    casilla(int,casilla*,std::string);
+    casilla(std::string);
 };
 
 
