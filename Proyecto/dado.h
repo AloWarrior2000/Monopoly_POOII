@@ -1,18 +1,18 @@
 //
-// Created by fabrizio on 6/1/19.
+// Created by alonso on 31/05/19.
 //
 
-#ifndef PROYECTO_DADO_H
-#define PROYECTO_DADO_H
+#ifndef POOII_DADO_H
+#define POOII_DADO_H
 
+#include <random>
 
 class dado {
 public:
-    int valor;
-    dado();
+    dado() = default;
 
-    virtual ~dado();
+    int lanzar();
 };
 
 
-#endif //PROYECTO_DADO_H
+#endif //POOII_DADO_H

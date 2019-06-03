@@ -4,9 +4,9 @@
 
 int main() {
     srand(time(0));
-    juego game;
+    Juego game;
     //game.crearjugadores();
-    game.verjugadores();
+    game.iniciar();
     //game.base.imprimirtablero();
     //game.base.imprimirtablero();
     //game.verjugadores();

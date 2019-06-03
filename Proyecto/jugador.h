@@ -1,27 +1,36 @@
 //
-// Created by fabrizio on 6/1/19.
+// Created by alonso on 31/05/19.
 //
 
-#ifndef PROYECTO_JUGADOR_H
-#define PROYECTO_JUGADOR_H
+#ifndef POOII_JUGADOR_H
+#define POOII_JUGADOR_H
 
-
-#include <string>
-#include "casilla.h"
+#include<string>
 #include <vector>
+#include "comprables.h"
 
-class jugador {
+class Jugador {
 public:
-    casilla* lugar;
-    int n;
+    casilla* posicion;
+    int id, Dinero, turnos_seguidos;
     std::string nombre;
-    std::vector<casilla> prop;
-    int dinero;
     bool free;
-    int seguidas;
-    jugador(int n,std::string nombre,casilla* _lugar);
-    void mover();
+    std::vector<comprables*> compradas;
+
+    Jugador(int id_, std::string nombre_){
+        posicion = nullptr;
+        id = id_;
+        Dinero = 1500;
+        turnos_seguidos = 0;
+        nombre = nombre_;
+        free = true;
+        compradas = {};
+    }
+
+    void avanzar(int casillas);
+
+
 };
 
 
-#endif //PROYECTO_JUGADOR_H
+#endif //POOII_JUGADOR_H

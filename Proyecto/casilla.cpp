@@ -6,4 +6,5 @@
 casilla::casilla(std::string _nombre) {
     next= nullptr;
     nombre=_nombre;
+    disponible= true;
 }

@@ -43,10 +43,10 @@ RM = /home/fabrizio/CLion-2019.1.3/clion-2019.1.3/bin/cmake/linux/bin/cmake -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fabrizio/CLionProjects/Proyecto
+CMAKE_SOURCE_DIR = /home/fabrizio/Monopoly_POOII/Proyecto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fabrizio/CLionProjects/Proyecto/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/Proyecto.dir/flags.make
 
 CMakeFiles/Proyecto.dir/main.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/main.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/main.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/main.cpp
 
 CMakeFiles/Proyecto.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/main.cpp > CMakeFiles/Proyecto.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/main.cpp > CMakeFiles/Proyecto.dir/main.cpp.i
 
 CMakeFiles/Proyecto.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/main.cpp -o CMakeFiles/Proyecto.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/main.cpp -o CMakeFiles/Proyecto.dir/main.cpp.s
 
 CMakeFiles/Proyecto.dir/tablero.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/tablero.cpp.o: ../tablero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto.dir/tablero.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/tablero.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/tablero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto.dir/tablero.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/tablero.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/tablero.cpp
 
 CMakeFiles/Proyecto.dir/tablero.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/tablero.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/tablero.cpp > CMakeFiles/Proyecto.dir/tablero.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/tablero.cpp > CMakeFiles/Proyecto.dir/tablero.cpp.i
 
 CMakeFiles/Proyecto.dir/tablero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/tablero.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/tablero.cpp -o CMakeFiles/Proyecto.dir/tablero.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/tablero.cpp -o CMakeFiles/Proyecto.dir/tablero.cpp.s
 
 CMakeFiles/Proyecto.dir/casilla.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/casilla.cpp.o: ../casilla.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto.dir/casilla.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/casilla.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/casilla.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto.dir/casilla.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/casilla.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/casilla.cpp
 
 CMakeFiles/Proyecto.dir/casilla.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/casilla.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/casilla.cpp > CMakeFiles/Proyecto.dir/casilla.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/casilla.cpp > CMakeFiles/Proyecto.dir/casilla.cpp.i
 
 CMakeFiles/Proyecto.dir/casilla.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/casilla.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/casilla.cpp -o CMakeFiles/Proyecto.dir/casilla.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/casilla.cpp -o CMakeFiles/Proyecto.dir/casilla.cpp.s
 
 CMakeFiles/Proyecto.dir/comprables.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/comprables.cpp.o: ../comprables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto.dir/comprables.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/comprables.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/comprables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto.dir/comprables.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/comprables.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/comprables.cpp
 
 CMakeFiles/Proyecto.dir/comprables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/comprables.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/comprables.cpp > CMakeFiles/Proyecto.dir/comprables.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/comprables.cpp > CMakeFiles/Proyecto.dir/comprables.cpp.i
 
 CMakeFiles/Proyecto.dir/comprables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/comprables.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/comprables.cpp -o CMakeFiles/Proyecto.dir/comprables.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/comprables.cpp -o CMakeFiles/Proyecto.dir/comprables.cpp.s
 
 CMakeFiles/Proyecto.dir/accion.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../accion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto.dir/accion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/accion.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/accion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto.dir/accion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/accion.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/accion.cpp
 
 CMakeFiles/Proyecto.dir/accion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/accion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/accion.cpp > CMakeFiles/Proyecto.dir/accion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/accion.cpp > CMakeFiles/Proyecto.dir/accion.cpp.i
 
 CMakeFiles/Proyecto.dir/accion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/accion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/accion.cpp -o CMakeFiles/Proyecto.dir/accion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/accion.cpp -o CMakeFiles/Proyecto.dir/accion.cpp.s
 
 CMakeFiles/Proyecto.dir/jugador.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/jugador.cpp.o: ../jugador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto.dir/jugador.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/jugador.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto.dir/jugador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/jugador.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/jugador.cpp
 
 CMakeFiles/Proyecto.dir/jugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/jugador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/jugador.cpp > CMakeFiles/Proyecto.dir/jugador.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/jugador.cpp > CMakeFiles/Proyecto.dir/jugador.cpp.i
 
 CMakeFiles/Proyecto.dir/jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/jugador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/jugador.cpp -o CMakeFiles/Proyecto.dir/jugador.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/jugador.cpp -o CMakeFiles/Proyecto.dir/jugador.cpp.s
 
 CMakeFiles/Proyecto.dir/dado.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/dado.cpp.o: ../dado.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto.dir/dado.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/dado.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/dado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto.dir/dado.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/dado.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/dado.cpp
 
 CMakeFiles/Proyecto.dir/dado.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/dado.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/dado.cpp > CMakeFiles/Proyecto.dir/dado.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/dado.cpp > CMakeFiles/Proyecto.dir/dado.cpp.i
 
 CMakeFiles/Proyecto.dir/dado.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/dado.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/dado.cpp -o CMakeFiles/Proyecto.dir/dado.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/dado.cpp -o CMakeFiles/Proyecto.dir/dado.cpp.s
 
 CMakeFiles/Proyecto.dir/juego.cpp.o: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/juego.cpp.o: ../juego.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto.dir/juego.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/juego.cpp.o -c /home/fabrizio/CLionProjects/Proyecto/juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto.dir/juego.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto.dir/juego.cpp.o -c /home/fabrizio/Monopoly_POOII/Proyecto/juego.cpp
 
 CMakeFiles/Proyecto.dir/juego.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/juego.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/CLionProjects/Proyecto/juego.cpp > CMakeFiles/Proyecto.dir/juego.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fabrizio/Monopoly_POOII/Proyecto/juego.cpp > CMakeFiles/Proyecto.dir/juego.cpp.i
 
 CMakeFiles/Proyecto.dir/juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/juego.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/CLionProjects/Proyecto/juego.cpp -o CMakeFiles/Proyecto.dir/juego.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fabrizio/Monopoly_POOII/Proyecto/juego.cpp -o CMakeFiles/Proyecto.dir/juego.cpp.s
 
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
@@ -185,7 +185,7 @@ Proyecto: CMakeFiles/Proyecto.dir/dado.cpp.o
 Proyecto: CMakeFiles/Proyecto.dir/juego.cpp.o
 Proyecto: CMakeFiles/Proyecto.dir/build.make
 Proyecto: CMakeFiles/Proyecto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Proyecto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Proyecto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +198,6 @@ CMakeFiles/Proyecto.dir/clean:
 .PHONY : CMakeFiles/Proyecto.dir/clean
 
 CMakeFiles/Proyecto.dir/depend:
-	cd /home/fabrizio/CLionProjects/Proyecto/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fabrizio/CLionProjects/Proyecto /home/fabrizio/CLionProjects/Proyecto /home/fabrizio/CLionProjects/Proyecto/cmake-build-debug /home/fabrizio/CLionProjects/Proyecto/cmake-build-debug /home/fabrizio/CLionProjects/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fabrizio/Monopoly_POOII/Proyecto /home/fabrizio/Monopoly_POOII/Proyecto /home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug /home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug /home/fabrizio/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto.dir/depend
 

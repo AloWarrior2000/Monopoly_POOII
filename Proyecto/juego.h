@@ -1,25 +1,36 @@
 //
-// Created by fabrizio on 6/1/19.
+// Created by alonso on 31/05/19.
 //
 
-#ifndef PROYECTO_JUEGO_H
-#define PROYECTO_JUEGO_H
+#ifndef POOII_JUEGO_H
+#define POOII_JUEGO_H
 
-
-#include "tablero.h"
-#include "jugador.h"
+#include <string>
+#include <iostream>
 #include <vector>
 
-class juego {
-public:
-    tablero base;
-    std::vector<jugador> jugadores;
-    juego();
-    void crearjugadores();
-    void verjugadores();
-    void siguienteturno();
+#include "jugador.h"
+#include "dado.h"
+#include "tablero.h"
 
+
+class Juego {
+private:
+    bool JuegoEnMarcha;
+    int turno;
+    int num_jugadores;
+    dado dado1, dado2;
+    std::vector<Jugador> Orden;
+
+
+public:
+    Juego()= default;
+
+    void iniciar();
+    void next();
+    void definir_jugadores();
+    void bancarrota();
 };
 
 
-#endif //PROYECTO_JUEGO_H
+#endif //POOII_JUEGO_H

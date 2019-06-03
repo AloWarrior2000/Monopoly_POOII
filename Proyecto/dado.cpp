@@ -1,18 +1,13 @@
 //
-// Created by fabrizio on 6/1/19.
+// Created by alonso on 31/05/19.
 //
 
-#include <cstdlib>
-#include <random>
-#include "dado.h"
-#include <ctime>
 #include <iostream>
+#include "dado.h"
 
+int dado::lanzar() {
+    int lanzamiento = 1+ rand()%6;
+    std::cout << "El dado saco " << lanzamiento << std::endl;
 
-dado::dado() {
-    valor=rand()%6+1;
-}
-
-dado::~dado() {
-//std::cout<<"borrado"<<std::endl;
+    return lanzamiento;
 }
