@@ -22,7 +22,6 @@ private:
     dado dado1, dado2;
     std::vector<Jugador> Orden;
 
-
 public:
     Juego()= default;
 

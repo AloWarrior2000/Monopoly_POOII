@@ -7,7 +7,7 @@
 
 #include<string>
 #include <vector>
-#include "comprables.h"
+#include "casilla.h"
 
 class Jugador {
 public:
@@ -15,7 +15,7 @@ public:
     int id, Dinero, turnos_seguidos;
     std::string nombre;
     bool free;
-    std::vector<comprables*> compradas;
+    std::vector<casilla*> compradas;
 
     Jugador(int id_, std::string nombre_){
         posicion = nullptr;

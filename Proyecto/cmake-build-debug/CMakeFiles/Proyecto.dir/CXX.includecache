@@ -17,14 +17,16 @@ casilla.h
 /home/fabrizio/Monopoly_POOII/Proyecto/casilla.h
 
 /home/fabrizio/Monopoly_POOII/Proyecto/casilla.cpp
+iostream
+-
 casilla.h
 /home/fabrizio/Monopoly_POOII/Proyecto/casilla.h
+jugador.h
+/home/fabrizio/Monopoly_POOII/Proyecto/jugador.h
 
 /home/fabrizio/Monopoly_POOII/Proyecto/casilla.h
 string
 -
-jugador.h
-/home/fabrizio/Monopoly_POOII/Proyecto/jugador.h
 
 /home/fabrizio/Monopoly_POOII/Proyecto/comprables.cpp
 iostream
@@ -39,8 +41,6 @@ string
 -
 casilla.h
 /home/fabrizio/Monopoly_POOII/Proyecto/casilla.h
-jugador.h
-/home/fabrizio/Monopoly_POOII/Proyecto/jugador.h
 
 /home/fabrizio/Monopoly_POOII/Proyecto/dado.h
 random
@@ -75,14 +75,16 @@ string
 -
 vector
 -
-comprables.h
-/home/fabrizio/Monopoly_POOII/Proyecto/comprables.h
+casilla.h
+/home/fabrizio/Monopoly_POOII/Proyecto/casilla.h
 
 /home/fabrizio/Monopoly_POOII/Proyecto/main.cpp
 iostream
 -
 juego.h
 /home/fabrizio/Monopoly_POOII/Proyecto/juego.h
+random
+-
 
 /home/fabrizio/Monopoly_POOII/Proyecto/tablero.cpp
 iostream

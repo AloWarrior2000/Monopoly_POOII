@@ -158,6 +158,5 @@ void tablero::imprimirtablero() {
         std::cout<<n->nombre<<" ";
         n=n->next;
     }while(n!=head_);
-    //std::cout<<n->nombre;
 }
 

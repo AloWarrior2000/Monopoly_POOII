@@ -7,16 +7,14 @@
 
 
 #include <string>
-#include "jugador.h"
+class Jugador;
 
 class casilla {
 public:
     std::string nombre;
     casilla* next;
-    bool disponible;
     casilla(std::string);
-
-    virtual void accion(Jugador huesped)=0;
+    virtual void ejecutar(Jugador huesped);
 };
 
 

@@ -3,13 +3,13 @@
 //
 
 #include "juego.h"
-using namespace std;
+
 
 void Juego::definir_jugadores() {
     do {
         std::cout << "Definir numero de jugadores (2 - 8): ";
         std::cin >> num_jugadores;
-    } while (num_jugadores < 2 || num_jugadores > 8);
+    } while (num_jugadores < 2 | num_jugadores > 8);
     std::cout << std::endl << "Ahora defina los jugadores en el orden en que jugarán." << std::endl;
     for (int i = 0; i < num_jugadores; ++i) {
         std::string name;
@@ -18,7 +18,6 @@ void Juego::definir_jugadores() {
         Jugador player(i, name);
         Orden.push_back(player);
         std::cout << std::endl;
-
     }
 }
 
@@ -26,12 +25,11 @@ void Juego::next() {}
 
 void Juego::bancarrota(){}
 
-
 void Juego::iniciar() {
     definir_jugadores();
     tablero mesa;
 
-     mesa.imprimirtablero();
+    mesa.imprimirtablero();
     for (int i = 0; i < num_jugadores; i++) {
         Orden[i].posicion = mesa.head_;
     }
@@ -50,15 +48,13 @@ void Juego::iniciar() {
         segundo = dado2.lanzar();
         avance = primero + segundo;
         Orden[en_turno].avanzar(avance);
-        Orden[en_turno].posicion->accion(Orden[en_turno]);
-
-        };
+        Orden[en_turno].posicion->ejecutar(Orden[en_turno]);
         en_turno++;
+
+    };
+
 //        //      Orden[en_turno].posicion->accion(Orden[en_turno]);
 //
 //
 //        JuegoEnMarcha = false;
-    }
 }
-
-//    std::cout << "exito";

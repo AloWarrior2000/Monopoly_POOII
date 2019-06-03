@@ -13,6 +13,7 @@ class accion: public casilla {
 public:
     //std::string nombre;
     accion(std::string _nombre);
+    //void dad(Jugador dads) override ;
 };
 
 

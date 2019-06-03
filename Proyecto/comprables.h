@@ -8,9 +8,6 @@
 
 #include <string>
 #include "casilla.h"
-#include "jugador.h"
-
-
 
 class comprables: public casilla {
 public:
@@ -18,11 +15,9 @@ public:
     int precio;
     int alquiler;
     int dueno;
-    bool libre;
+    bool disponible;
     comprables(std::string _nombre, int _precio, int _alquiler);
-
-    void accion(Jugador huesped) override;
-
+    void ejecutar(Jugador dads);
 };
 
 class propiedades: public comprables{
@@ -38,9 +33,9 @@ public:
 
 };
 
-class servicio:public  comprables{
+class compania:public  comprables{
 public:
-    servicio(std::string _nombre, int _precio, int _alquiler);
+    compania(std::string _nombre, int _precio, int _alquiler);
 };
 
 #endif //PROYECTO_COMPRABLES_H

@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "dado.h"
+#include <random>
+
 
 int dado::lanzar() {
     int lanzamiento = 1+ rand()%6;
