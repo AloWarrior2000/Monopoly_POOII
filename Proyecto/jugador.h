@@ -28,6 +28,8 @@ public:
     }
 
     void avanzar(int casillas);
+    void mostrar_propiedades();
+    void opciones();
 
 
 };

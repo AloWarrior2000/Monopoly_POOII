@@ -17,7 +17,7 @@ public:
     int dueno;
     bool disponible;
     comprables(std::string _nombre, int _precio, int _alquiler);
-    void ejecutar(Jugador dads);
+    void ejecutar(Jugador* huesped)override;
 };
 
 class propiedades: public comprables{

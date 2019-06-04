@@ -14,7 +14,7 @@ public:
     std::string nombre;
     casilla* next;
     casilla(std::string);
-    virtual void ejecutar(Jugador huesped);
+    virtual void ejecutar(Jugador* huesped);
 };
 
 

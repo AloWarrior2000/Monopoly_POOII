@@ -4,6 +4,7 @@
 
 #include "juego.h"
 
+using namespace std;
 
 void Juego::definir_jugadores() {
     do {
@@ -41,14 +42,16 @@ void Juego::iniciar() {
             en_turno = 0;
         }
         std::cout<<std::endl;
-        std::cout << "Presione enter para lanzar los dados";
+        cout<<"Es el turno del jugador "<<Orden[en_turno].nombre<<endl;
+        std::cout << "Presione enter para lanzar los dados"<<std::endl;
         std::string vacio;
         std::cin >> vacio;
         primero = dado1.lanzar();
         segundo = dado2.lanzar();
         avance = primero + segundo;
         Orden[en_turno].avanzar(avance);
-        Orden[en_turno].posicion->ejecutar(Orden[en_turno]);
+        Orden[en_turno].posicion->ejecutar(&Orden[en_turno]);
+        Orden[en_turno].opciones();
         en_turno++;
 
     };

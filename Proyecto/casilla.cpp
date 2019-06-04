@@ -10,6 +10,6 @@ casilla::casilla(std::string _nombre) {
     next= nullptr;
     nombre=_nombre;
 }
-void casilla::ejecutar(Jugador huesped) {
+void casilla::ejecutar(Jugador* huesped) {
     //std::cout<<12;
 }
