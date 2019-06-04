@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include "dado.h"
-#include <random>
 
 
 int dado::lanzar() {

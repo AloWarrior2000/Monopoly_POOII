@@ -3,7 +3,9 @@
 //
 
 #include "juego.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 using namespace std;
 
 void Juego::definir_jugadores() {
@@ -27,6 +29,7 @@ void Juego::next() {}
 void Juego::bancarrota(){}
 
 void Juego::iniciar() {
+    srand(time(NULL));
     definir_jugadores();
     tablero mesa;
 
@@ -42,7 +45,7 @@ void Juego::iniciar() {
             en_turno = 0;
         }
         std::cout<<std::endl;
-        cout<<"Es el turno del jugador "<<Orden[en_turno].nombre<<endl;
+        cout<<"Es el turno del jugador "<<Orden[en_turno].nombre<<", tiene $"<<Orden[en_turno].Dinero<<endl;
         std::cout << "Presione enter para lanzar los dados"<<std::endl;
         std::string vacio;
         std::cin >> vacio;

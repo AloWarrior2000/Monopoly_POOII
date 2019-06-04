@@ -11,5 +11,4 @@ casilla::casilla(std::string _nombre) {
     nombre=_nombre;
 }
 void casilla::ejecutar(Jugador* huesped) {
-    //std::cout<<12;
 }

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug"/>
+				<Option working_dir="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug"/>
+				<Option working_dir="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto">
-				<Option output="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Proyecto" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug"/>
+				<Option output="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Proyecto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto/fast">
-				<Option output="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Proyecto" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug"/>
+				<Option output="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Proyecto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,69 +67,69 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug"/>
+				<Option working_dir="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cristian/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/accion.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/accion.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/accion.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/accion.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/casilla.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/casilla.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/casilla.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/casilla.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/comprables.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/comprables.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/comprables.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/comprables.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/dado.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/dado.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/dado.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/dado.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/juego.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/juego.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/juego.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/juego.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/jugador.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/jugador.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/jugador.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/jugador.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/main.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/main.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/tablero.cpp">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/tablero.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/tablero.h">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/tablero.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="/home/cristian/Desktop/Monopoly_POOII/Proyecto/CMakeLists.txt">
+		<Unit filename="/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

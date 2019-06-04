@@ -6,19 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/casilla.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/casilla.h
 string
 -
 
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/dado.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/dado.h
 random
 -
 
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/juego.cpp
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/juego.cpp
 juego.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/juego.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/juego.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
 
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/juego.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/juego.h
 string
 -
 iostream
@@ -26,27 +32,21 @@ iostream
 vector
 -
 jugador.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/jugador.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/jugador.h
 dado.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/dado.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/dado.h
 tablero.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/tablero.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/tablero.h
 
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/jugador.cpp
-iostream
--
-jugador.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/jugador.h
-
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/jugador.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/jugador.h
 string
 -
 vector
 -
 casilla.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/casilla.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/casilla.h
 
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/tablero.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/tablero.h
 casilla.h
-/home/cristian/Desktop/Monopoly_POOII/Proyecto/casilla.h
+/home/fabrizio/UTEC/Poo/Monopoly_POOII/Proyecto/casilla.h
 
