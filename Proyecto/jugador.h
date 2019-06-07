@@ -8,6 +8,7 @@
 #include<string>
 #include <vector>
 #include "casilla.h"
+#include "comprables.h"
 
 class Jugador {
 public:
@@ -24,11 +25,13 @@ public:
         turnos_seguidos = 0;
         nombre = nombre_;
         free = true;
-        compradas = {};
+        //compradas = {};
+        //compradas.push_back(std::vector<propiedades*> pro)
     }
 
     void avanzar(int casillas);
     void mostrar_propiedades();
+    void comprar_casas();
     void opciones();
 
 

@@ -11,7 +11,7 @@ casilla* crear(int i){
     casilla* casilla;
     switch (i) {
         case 0:
-            casilla = new accion("Go");
+            casilla = new Go("Go");
             break;
         case 1:
             casilla = new propiedades("Marron1", 10, 5, 50);
@@ -23,7 +23,7 @@ casilla* crear(int i){
             casilla = new propiedades("Marron2", 10, 5, 50);
             break;
         case 4:
-            casilla = new accion("I");
+            casilla = new Impuesto("I",200,0.1);
             break;
         case 5:
             casilla = new ferrocarril("F1", 50, 50);
@@ -41,7 +41,7 @@ casilla* crear(int i){
             casilla = new propiedades("Celeste3", 90, 6, 50);
             break;
         case 10:
-            casilla = new accion("V");
+            casilla = new Jail("Jail");
             break;
         case 11:
             casilla = new propiedades("Morado1", 110, 12, 100);
@@ -71,7 +71,7 @@ casilla* crear(int i){
             casilla = new propiedades("Naranja3", 90, 6, 50);
             break;
         case 20:
-            casilla = new accion("Pl");
+            casilla = new ParadaLibre("Pl");
             break;
         case 21:
             casilla = new propiedades("Rojo1", 110, 12, 100);
@@ -101,7 +101,7 @@ casilla* crear(int i){
             casilla = new propiedades("Amarillo3", 90, 6, 50);
             break;
         case 30:
-            casilla = new accion("GTJ");
+            casilla = new GoToJail("GTJ");
             break;
         case 31:
             casilla = new propiedades("Verde1", 80, 6, 50);
@@ -125,7 +125,7 @@ casilla* crear(int i){
             casilla = new propiedades("azul1", 90, 6, 50);
             break;
         case 38:
-            casilla = new accion("A");
+            casilla = new Impuesto("Lujo",75,1);
             break;
         case 39:
             casilla = new propiedades("azul", 42, 5, 100);

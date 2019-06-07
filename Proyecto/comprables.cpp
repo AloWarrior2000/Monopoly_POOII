@@ -10,7 +10,7 @@ comprables::comprables(std::string _nombre, int _precio, int _alquiler):casilla(
     //nombre = _nombre;
     precio = _precio;
     alquiler = _alquiler;
-    dueno = 0;
+    dueno = nullptr;
     disponible = true;
 }
 void comprables::ejecutar(Jugador* huesped) {
@@ -23,10 +23,16 @@ void comprables::ejecutar(Jugador* huesped) {
                 huesped->Dinero -= precio;
                 disponible = false;
                 huesped->compradas.push_back(huesped->posicion);
+                dueno=huesped;
                 cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
             }
         }
-        }
+    }
+    else{
+        cout<<"Debe pagar a "<<dueno->nombre<<" un total de: "<<alquiler;
+        huesped->Dinero-=alquiler;
+        dueno->Dinero+=alquiler;
+    }
 }
 
 propiedades::propiedades(std::string _nombre, int _precio, int _alquiler,int _precio_casas):comprables(_nombre,_precio,_alquiler){

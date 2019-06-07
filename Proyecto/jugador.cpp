@@ -4,12 +4,16 @@
 
 #include <iostream>
 #include "jugador.h"
+#include "comprables.h"
 
 using namespace std;
 
 void Jugador::avanzar(int casillas) {
     for (int i = 0; i < casillas; i++){
         posicion = posicion->next;
+        if(posicion->nombre=="Go"){
+            Dinero+=200;
+        }
     }
 
     std::cout<<"\nEl jugador "<<nombre<<" avanzó hasta la casilla "<<posicion->nombre<<std::endl;
@@ -27,6 +31,12 @@ void Jugador::mostrar_propiedades()
     else
     {
         cout<<"El jugador "<<nombre<<" no posee propiedades"<<endl;
+    }
+}
+
+void Jugador::comprar_casas() {
+    for(auto item: compradas){
+
     }
 }
 
