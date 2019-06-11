@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alonso/Escritorio/gil/Proyecto/dado.cpp
+iostream
+-
+dado.h
+/home/alonso/Escritorio/gil/Proyecto/dado.h
+random
+-
+
+/home/alonso/Escritorio/gil/Proyecto/dado.h
+random
+-
+
