@@ -15,7 +15,7 @@ public:
     //std::string nombre;
     int precio;
     int alquiler;
-    int dueno;
+    Jugador* dueno;
     bool disponible;
     comprables(std::string _nombre, int _precio, int _alquiler);
     void ejecutar(Jugador* huesped)override;

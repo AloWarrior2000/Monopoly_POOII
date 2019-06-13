@@ -13,11 +13,11 @@ class tablero {
 public:
     casilla* head_;
     casilla* jail;
-    vector<ArcaComunal*> AC;
+    int pozo;
+    vector <int> Arca;
     tablero();
     void imprimirtablero();
     casilla* crear(int i);
-    ArcaComunal* crearArcaComunal(int i);
 };
 
 

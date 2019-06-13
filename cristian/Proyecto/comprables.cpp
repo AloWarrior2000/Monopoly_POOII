@@ -15,20 +15,30 @@ comprables::comprables(std::string _nombre, int _precio, int _alquiler):casilla(
     disponible = true;
 }
 void comprables::ejecutar(Jugador* huesped) {
+    string respuesta;
     if(disponible){
-        cout<<"Desea comprar la propiedad "<< nombre<<endl;
-        string respuesta;
-        cin>>respuesta;
+        do {
+            cout << "Desea comprar la propiedad " << nombre << endl;
+            cin >> respuesta;
+        }while(respuesta != "si" && respuesta !="no");
         if(respuesta=="si"){
             if(huesped->Dinero >= precio){
                 huesped->Dinero -= precio;
                 disponible = false;
                 huesped->compradas.push_back(huesped->posicion);
+                dueno = huesped;
                 cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
             }
         }
         }
-}
+    else
+    {
+        cout<<"El jugador "<<huesped->nombre<<" le pagó "<<precio<<" al jugador "<<dueno->nombre<<endl;
+        huesped->Dinero -= precio;
+        dueno->Dinero += precio;
+    }
+    }
+
 
 propiedades::propiedades(std::string _nombre, int _precio, int _alquiler,int _precio_casas):comprables(_nombre,_precio,_alquiler){
     casas=0;

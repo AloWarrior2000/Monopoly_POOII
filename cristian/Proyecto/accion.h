@@ -7,6 +7,7 @@
 
 #include <string>
 #include "casilla.h"
+#include <vector>
 class tablero;
 
 using namespace std;
@@ -17,13 +18,15 @@ class Impuesto: public casilla
     float porciento;
 public:
     Impuesto(string nombre,int imp,float porciento):casilla(nombre),imp{imp},porciento{porciento}{}
-    void ejecutar(Jugador* huesped, tablero Monopoly)override;
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
 };
 
 class ArcaComunal:public casilla {
+private:
     string nombre;
 public:
-    ArcaComunal(string nombre):casilla( nombre){}
+    ArcaComunal(string nombre):casilla(nombre){}
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
 
 };
 
@@ -42,7 +45,7 @@ class ParadaLibre: public casilla{
 public:
     int Pozo;
     ParadaLibre(string nombre):casilla(nombre),Pozo{0}{}
-    void ejecutar(Jugador* huesped, tablero Monopoly)override;
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
 };
 
 class Go:public casilla{
@@ -53,7 +56,7 @@ public:
 class GoToJail:public casilla{
 public:
     GoToJail(string nombre):casilla(nombre){}
-    void ejecutar(Jugador* huesped, tablero Monopoly)override;
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
 };
 
 

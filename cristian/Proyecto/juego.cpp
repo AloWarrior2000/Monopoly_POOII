@@ -54,7 +54,13 @@ void Juego::iniciar() {
             segundo = dado2.lanzar();
             avance = primero + segundo;
             Orden[en_turno].avanzar(avance);
-            Orden[en_turno].posicion->ejecutar(&Orden[en_turno],mesa);
+            if((dynamic_cast<GoToJail*>(Orden[en_turno].posicion))||(dynamic_cast<Impuesto*>(Orden[en_turno].posicion))||(dynamic_cast<ParadaLibre*>(Orden[en_turno].posicion))||(dynamic_cast<ArcaComunal*>(Orden[en_turno].posicion))){
+                Orden[en_turno].posicion->ejecutar(&Orden[en_turno], &mesa);
+            }
+            else
+                {
+                Orden[en_turno].posicion->ejecutar(&Orden[en_turno]);
+                }
             Orden[en_turno].opciones();
             en_turno++;
         }

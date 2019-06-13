@@ -16,8 +16,9 @@ class casilla {
 public:
     string nombre;
     casilla* next;
-    casilla(std::string);
-    virtual void ejecutar(Jugador* huesped, tablero Monopoly);
+    Jugador* dueno;
+    casilla(string nombre):nombre{nombre},next{nullptr},dueno{nullptr}{}
+    virtual void ejecutar(Jugador* huesped, tablero* Monopoly);
     virtual void ejecutar(Jugador* huesped);
 };
 

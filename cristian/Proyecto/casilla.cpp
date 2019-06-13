@@ -8,11 +8,7 @@
 
 class Jugador;
 
-casilla::casilla(std::string _nombre) {
-    next= nullptr;
-    nombre=_nombre;
-}
-void casilla::ejecutar(Jugador* huesped, tablero Monopoly) {
+void casilla::ejecutar(Jugador* huesped, tablero* Monopoly) {
     //std::cout<<12;
 }
 
