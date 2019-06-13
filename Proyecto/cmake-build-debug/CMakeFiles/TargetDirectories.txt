@@ -1,3 +1,0 @@
-/home/fabrizio/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/fabrizio/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir
-/home/fabrizio/Desktop/Monopoly_POOII/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
