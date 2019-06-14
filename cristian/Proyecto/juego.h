@@ -20,7 +20,7 @@ private:
     int turno;
     int num_jugadores;
     dado dado1, dado2;
-    std::vector<Jugador> Orden;
+    vector<Jugador> Orden;
 
 public:
     Juego()= default;

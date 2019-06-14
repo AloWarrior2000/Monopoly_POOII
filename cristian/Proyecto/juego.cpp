@@ -52,7 +52,8 @@ void Juego::iniciar() {
                 cin >> vacio;
                 primero = dado1.lanzar();
                 segundo = dado2.lanzar();
-                if (primero == segundo)seguidas++;
+                if (primero == segundo)
+                    seguidas++;
                 if (seguidas == 3) {
                     Orden[en_turno].free = false;
                     Orden[en_turno].posicion = mesa.jail;
@@ -66,7 +67,8 @@ void Juego::iniciar() {
                 if ((dynamic_cast<GoToJail *>(Orden[en_turno].posicion))
                     || (dynamic_cast<Impuesto *>(Orden[en_turno].posicion))
                     || (dynamic_cast<ParadaLibre *>(Orden[en_turno].posicion))
-                    || (dynamic_cast<ArcaComunal *>(Orden[en_turno].posicion))) {
+                    || (dynamic_cast<ArcaComunal *>(Orden[en_turno].posicion))
+                    || (dynamic_cast<Fortuna *>(Orden[en_turno].posicion))) {
                     Orden[en_turno].posicion->ejecutar(&Orden[en_turno], &mesa);
                 } else {
                     Orden[en_turno].posicion->ejecutar(&Orden[en_turno]);

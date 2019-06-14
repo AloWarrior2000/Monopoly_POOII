@@ -59,7 +59,7 @@ casilla* tablero::crear(int i) {
             casilla = new ferrocarril("Ferrocarril Pensilvania", 200, 50);
             break;
         case 16:
-            casilla = new propiedades("Plaza San James","Naranja", 180, 14, 100);
+            casilla = new propiedades("Plaza St James","Naranja", 180, 14, 100);
             break;
         case 17:
             casilla = new ArcaComunal("Arca Comunal");

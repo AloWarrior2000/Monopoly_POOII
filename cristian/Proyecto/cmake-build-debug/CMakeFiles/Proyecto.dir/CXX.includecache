@@ -70,14 +70,6 @@ dado.h
 tablero.h
 /home/cristian/Desktop/cristian/Proyecto/tablero.h
 
-/home/cristian/Desktop/cristian/Proyecto/jugador.cpp
-iostream
--
-jugador.h
-/home/cristian/Desktop/cristian/Proyecto/jugador.h
-comprables.h
-/home/cristian/Desktop/cristian/Proyecto/comprables.h
-
 /home/cristian/Desktop/cristian/Proyecto/jugador.h
 string
 -
@@ -95,6 +87,16 @@ juego.h
 /home/cristian/Desktop/cristian/Proyecto/juego.h
 random
 -
+
+/home/cristian/Desktop/cristian/Proyecto/tablero.cpp
+iostream
+-
+tablero.h
+/home/cristian/Desktop/cristian/Proyecto/tablero.h
+comprables.h
+/home/cristian/Desktop/cristian/Proyecto/comprables.h
+accion.h
+/home/cristian/Desktop/cristian/Proyecto/accion.h
 
 /home/cristian/Desktop/cristian/Proyecto/tablero.h
 casilla.h

@@ -28,9 +28,12 @@ public:
         free = true;
         compradas = {};
     }
-    void comprar_casas();
     void avanzar(int casillas);
     void mostrar_propiedades();
+    void hipotecar();
+    void deshipotecar();
+    void comprar_casas();
+    void vender_casas();
     void opciones();
     void en_carcel(dado* A, dado* B);
 

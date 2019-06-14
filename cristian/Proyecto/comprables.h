@@ -12,13 +12,14 @@ class tablero;
 
 class comprables: public casilla {
 public:
-    //std::string nombre;
     int precio;
     int alquiler;
     Jugador* dueno;
     bool disponible;
+    bool hipotecado;
     comprables(std::string nombre, int precio, int alquiler):casilla{nombre}
-    ,precio{precio},alquiler{alquiler},disponible{true},dueno{nullptr}{}
+    ,precio{precio},alquiler{alquiler},disponible{true},dueno{nullptr},
+    hipotecado{false}{}
     virtual void set_alquiler(){}
     void ejecutar(Jugador* huesped)override;
 };
@@ -35,13 +36,15 @@ public:
 
 class ferrocarril: public comprables{
 public:
-    ferrocarril(std::string _nombre, int _precio, int _alquiler);
+    ferrocarril(string nombre, int precio, int alquiler):comprables(nombre,precio,alquiler){}
+    void set_alquiler()override;
 
 };
 
 class compania:public  comprables{
 public:
-    compania(std::string _nombre, int _precio, int _alquiler);
+    compania(string nombre, int precio, int alquiler):comprables(nombre,precio,alquiler){}
+    void set_alquiler()override;
 };
 
 #endif //PROYECTO_COMPRABLES_H

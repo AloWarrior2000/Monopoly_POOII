@@ -34,6 +34,7 @@ class Fortuna:public casilla{
     string nombre;
 public:
     Fortuna(string nombre):casilla(nombre){}
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
 };
 
 class Jail:public casilla{
