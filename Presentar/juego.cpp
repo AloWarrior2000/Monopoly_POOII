@@ -45,7 +45,6 @@ void Juego::iniciar() {
             en_turno = 0;
         }
         std::cout<<std::endl;
-        cout<<"Es el turno del jugador "<<Orden[en_turno].nombre<<" tiene "<<Orden[en_turno].Dinero<<endl;
         if(Orden[en_turno].free) {
             int seguidas=0;
             std::cout << "Presione enter para lanzar los dados" << std::endl;

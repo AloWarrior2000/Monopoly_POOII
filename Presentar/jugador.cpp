@@ -166,6 +166,7 @@ void Jugador::opciones()
 {
     int opcion;
     do {
+        cout <<"Es el turno del jugador "<<nombre<<" tiene "<<Dinero<<endl;
         cout << "Ahora, ¿qué acción quieres realizar? Escribe el número de la opción que elija" << endl;
         cout << "1. Terminar mi turno" << endl;
         cout << "2. Negociar con otro jugador" << endl;
@@ -174,6 +175,7 @@ void Jugador::opciones()
         cout << "5. Deshipotecar mis propiedades"<<endl;
         cout << "6. Comprar casas"<<endl;
         cout << "7. Vender casas"<<endl;
+        cout << "8. Bancarrota"<<endl;
         cin >> opcion;
         switch (opcion) {
             case 1:
@@ -193,6 +195,8 @@ void Jugador::opciones()
                 break;
             case 7:
                 vender_casas();
+                break;
+            case 8:
                 break;
         }
     }

@@ -6,29 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/accion.cpp
-accion.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/accion.h
-jugador.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/jugador.h
-tablero.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.h
-iostream
--
-
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/accion.h
 string
 -
 casilla.h
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/casilla.h
-
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/casilla.cpp
-iostream
--
-casilla.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/casilla.h
-tablero.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.h
 
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/casilla.h
 string
@@ -56,28 +38,6 @@ jugador.h
 random
 -
 
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/juego.cpp
-juego.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/juego.h
-random
--
-time.h
--
-
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/juego.h
-string
--
-iostream
--
-vector
--
-jugador.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/jugador.h
-dado.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/dado.h
-tablero.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.h
-
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/jugador.h
 string
 -
@@ -87,24 +47,6 @@ casilla.h
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/casilla.h
 dado.h
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/dado.h
-
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/main.cpp
-iostream
--
-juego.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/juego.h
-random
--
-
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.cpp
-iostream
--
-tablero.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.h
-comprables.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/comprables.h
-accion.h
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/accion.h
 
 /home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.h
 casilla.h

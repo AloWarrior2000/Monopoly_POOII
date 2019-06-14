@@ -36,19 +36,25 @@ void comprables::ejecutar(Jugador* huesped) {
         if (hipotecado) {
             cout << "Se encuentra hipotecada" << endl;
         } else {
-            if (dynamic_cast<compania *>(huesped->posicion) == nullptr) {
-                cout << "Debe pagarle a " << dueno->nombre << " un total de " << alquiler << endl;
-                huesped->Dinero -= alquiler;
-                dueno->Dinero += alquiler;
-            } else {
-                dado uno, dos;
-                cout << "Debe pagar " << alquiler * (uno.lanzar() + dos.lanzar()) << endl;
-                huesped->Dinero -= alquiler * (uno.lanzar() + dos.lanzar());
-                dueno->Dinero += alquiler * (uno.lanzar() + dos.lanzar());
+            do {
+                if (huesped->Dinero > alquiler) {
+                    if (dynamic_cast<compania *>(huesped->posicion) == nullptr) {
+                        cout << "Debe pagarle a " << dueno->nombre << " un total de " << alquiler << endl;
+                        huesped->Dinero -= alquiler;
+                        dueno->Dinero += alquiler;
+                    } else {
+                        dado uno, dos;
+                        cout << "Debe pagar " << alquiler * (uno.lanzar() + dos.lanzar()) << endl;
+                        huesped->Dinero -= alquiler * (uno.lanzar() + dos.lanzar());
+                        dueno->Dinero += alquiler * (uno.lanzar() + dos.lanzar());
+                    }
+                } else {
+                    huesped->mostrar_propiedades();
+                }
+            }while(huesped->Dinero<alquiler);
             }
         }
     }
-}
 
 
 propiedades::propiedades(std::string _nombre,std::string _color, int _precio, int _alquiler,int _precio_casas):comprables(_nombre,_precio,_alquiler){
