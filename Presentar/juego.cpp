@@ -52,7 +52,7 @@ void Juego::iniciar() {
             std::string vacio;
             std::cin >> vacio;
             do {
-                //primero = dado1.lanzar();
+                primero = dado1.lanzar();
                 segundo = dado2.lanzar();
                 if(primero==segundo){
                     seguidas++;

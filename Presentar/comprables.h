@@ -19,6 +19,7 @@ public:
     int alquiler;
     Jugador* dueno;
     bool disponible;
+    virtual void setAlquiler(){};
     comprables(std::string _nombre, int _precio, int _alquiler);
     void ejecutar(Jugador* huesped)override;
 };
@@ -28,17 +29,20 @@ public:
     std::string color;
     int casas;
     int precio_casa;
+    void setAlquiler()override;
     propiedades(std::string _nombre,std::string color, int _precio, int _alquiler,int _precio_casas);
 };
 
 class ferrocarril: public comprables{
 public:
+    void setAlquiler()override;
     ferrocarril(std::string _nombre, int _precio, int _alquiler);
 
 };
 
 class compania:public  comprables{
 public:
+    void setAlquiler()override;
     compania(std::string _nombre, int _precio, int _alquiler);
 };
 

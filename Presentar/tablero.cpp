@@ -26,7 +26,7 @@ casilla* tablero::crear(int i) {
             casilla = new Impuesto("Impuesto",200,0.1);
             break;
         case 5:
-            casilla = new ferrocarril("Ferrocarril Reading", 200, 50);
+            casilla = new ferrocarril("Ferrocarril Reading", 200, 25);
             break;
         case 6:
             casilla = new propiedades("Av. Oriental","Celeste", 100, 6, 50);
@@ -47,7 +47,7 @@ casilla* tablero::crear(int i) {
             casilla = new propiedades("Plaza San Carlos","Morado",140, 10, 100);
             break;
         case 12:
-            casilla = new compania("Compañia de Luz", 150, 1);
+            casilla = new compania("Compañia de Luz", 150, 4);
             break;
         case 13:
             casilla = new propiedades("Av. Estados","Morado", 140, 10, 100);
@@ -56,7 +56,7 @@ casilla* tablero::crear(int i) {
             casilla = new propiedades("Av. Virginia","Morado", 160, 10, 100);
             break;
         case 15:
-            casilla = new ferrocarril("Ferrocarril Pensilvania", 200, 50);
+            casilla = new ferrocarril("Ferrocarril Pensilvania", 200, 25);
             break;
         case 16:
             casilla = new propiedades("Plaza San James","Naranja", 180, 14, 100);
@@ -86,13 +86,13 @@ casilla* tablero::crear(int i) {
             casilla = new propiedades("Av. Illinois","Rojo", 240, 20, 150);
             break;
         case 25:
-            casilla = new ferrocarril("Ferrocarril By", 200, 50);
+            casilla = new ferrocarril("Ferrocarril By", 200, 25);
             break;
         case 26:
             casilla = new propiedades("Av. Atlantica","Amarillo", 260, 22, 150);
             break;
         case 27:
-            casilla = new compania("Compañia de Agua", 150, 1);
+            casilla = new compania("Compañia de Agua", 150, 4);
             break;
         case 28:
             casilla = new propiedades("Av. Ventnor","Amarillo", 260, 22, 150);
@@ -116,7 +116,7 @@ casilla* tablero::crear(int i) {
             casilla = new propiedades("Av. Pensilvania","Verde", 350, 35, 200);
             break;
         case 35:
-            casilla = new ferrocarril("Ferrocaril Vía Rápida", 200, 50);
+            casilla = new ferrocarril("Ferrocaril Vía Rápida", 200, 25);
             break;
         case 36:
             casilla = new Fortuna("Fortuna");

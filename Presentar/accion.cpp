@@ -30,7 +30,7 @@ void GoToJail::ejecutar(Jugador * huesped, tablero* Monopoly) {
 void ParadaLibre::ejecutar(Jugador *huesped, tablero* Monopoly) {
     huesped->Dinero+=Monopoly->pozo;
     cout << "El jugador " << huesped->nombre << " ha ganado " << Monopoly->pozo << "." << endl;
-    Pozo=0;
+    Monopoly->pozo=0;
 }
 
 

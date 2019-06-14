@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/accion.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/accion.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/casilla.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/casilla.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/comprables.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/comprables.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/dado.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/dado.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/juego.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/juego.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/jugador.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/jugador.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/main.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/main.cpp.o"
-  "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/tablero.cpp" "/home/fabrizio/Desktop/Monopoly_POOII/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir/tablero.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/accion.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/accion.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/casilla.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/casilla.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/comprables.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/comprables.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/dado.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/dado.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/juego.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/juego.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/jugador.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/jugador.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/main.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/main.cpp.o"
+  "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/tablero.cpp" "/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir/tablero.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

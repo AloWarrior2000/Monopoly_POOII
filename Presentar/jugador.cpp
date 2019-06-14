@@ -70,6 +70,7 @@ void Jugador::comprar_casas() {
                 if (Dinero > destino->precio_casa) {
                     Dinero -= destino->precio_casa;
                     destino->casas++;
+                    destino->setAlquiler();
                     cout << "Compraste una casa" << endl;
                 } else {
                     cout << "No tienes dinero" << endl;
@@ -82,6 +83,7 @@ void Jugador::comprar_casas() {
                 if (Dinero > destino->precio_casa) {
                     Dinero -= destino->precio_casa;
                     destino->casas++;
+                    destino->setAlquiler();
                     cout << "Compraste una casa"<<endl;
                 } else {
                     cout << "No tienes dinero"<<endl;
