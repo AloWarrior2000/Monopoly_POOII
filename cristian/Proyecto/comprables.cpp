@@ -7,13 +7,7 @@
 #include "jugador.h"
 #include "tablero.h"
 using namespace std;
-comprables::comprables(std::string _nombre, int _precio, int _alquiler):casilla(_nombre) {
-    //nombre = _nombre;
-    precio = _precio;
-    alquiler = _alquiler;
-    dueno = 0;
-    disponible = true;
-}
+
 void comprables::ejecutar(Jugador* huesped) {
     string respuesta;
     if(disponible){
@@ -30,20 +24,42 @@ void comprables::ejecutar(Jugador* huesped) {
                 cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
             }
         }
+        dynamic_cast<propiedades*>(huesped->posicion)->set_alquiler();
         }
     else
     {
-        cout<<"El jugador "<<huesped->nombre<<" le pagó "<<precio<<" al jugador "<<dueno->nombre<<endl;
+        cout<<"El jugador "<<huesped->nombre<<" le pagó "<<alquiler<<" al jugador "<<dueno->nombre<<endl;
         huesped->Dinero -= precio;
         dueno->Dinero += precio;
     }
     }
 
+void propiedades::set_alquiler()
+{
+    //Seteando alquiler para
+int mismo_color = 0;
+    for (auto it:dueno->compradas)
+    {
+        if (color == dynamic_cast<propiedades*>(it)->color) {
+            mismo_color++;
 
-propiedades::propiedades(std::string _nombre, int _precio, int _alquiler,int _precio_casas):comprables(_nombre,_precio,_alquiler){
-    casas=0;
-    precio_casa=_precio_casas;
-}
+        }
+    }
+    if(color == "Azul" || color=="Marron")
+    {
+        if(mismo_color==2)
+        {
+            alquiler = alquiler*2;
+        }
+    }
+    else
+    {
+        if(mismo_color==3)
+        {
+            alquiler = alquiler*2;
+        }
+    }
+    }
 
 ferrocarril::ferrocarril(std::string _nombre, int _precio, int _alquiler):comprables(_nombre,_precio,_alquiler) {}
 

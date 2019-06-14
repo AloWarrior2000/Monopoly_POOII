@@ -26,7 +26,6 @@ public:
     Juego()= default;
 
     void iniciar();
-    void next();
     void definir_jugadores();
     void bancarrota();
 };

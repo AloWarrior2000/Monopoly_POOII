@@ -8,14 +8,16 @@
 #include<string>
 #include <vector>
 #include "casilla.h"
+#include "dado.h"
 
 class Jugador {
 public:
     casilla* posicion;
     int id, Dinero, turnos_seguidos;
-    std::string nombre;
+    string nombre;
     bool free;
-    std::vector<casilla*> compradas;
+    vector<int> cartas_carcel={};
+    vector<casilla*> compradas;
 
     Jugador(int id_, std::string nombre_){
         posicion = nullptr;
@@ -26,11 +28,11 @@ public:
         free = true;
         compradas = {};
     }
-
+    void comprar_casas();
     void avanzar(int casillas);
     void mostrar_propiedades();
     void opciones();
-    void opciones_en_carcel();
+    void en_carcel(dado* A, dado* B);
 
 
 };

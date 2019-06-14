@@ -18,8 +18,8 @@ public:
     casilla* next;
     Jugador* dueno;
     casilla(string nombre):nombre{nombre},next{nullptr},dueno{nullptr}{}
-    virtual void ejecutar(Jugador* huesped, tablero* Monopoly);
-    virtual void ejecutar(Jugador* huesped);
+    virtual void ejecutar(Jugador* huesped, tablero* Monopoly){};
+    virtual void ejecutar(Jugador* huesped){};
 };
 
 

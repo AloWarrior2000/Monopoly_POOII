@@ -10,21 +10,19 @@ using namespace std;
 
 void Juego::definir_jugadores() {
     do {
-        std::cout << "Definir numero de jugadores (2 - 8): ";
-        std::cin >> num_jugadores;
+        cout << "Definir numero de jugadores (2 - 8): ";
+        cin >> num_jugadores;
     } while (num_jugadores < 2 | num_jugadores > 8);
-    std::cout << std::endl << "Ahora defina los jugadores en el orden en que jugarán." << std::endl;
+    cout <<endl<< "Ahora defina los jugadores en el orden en que jugarán." <<endl;
     for (int i = 0; i < num_jugadores; ++i) {
-        std::string name;
-        std::cout << "Ingresar nombre del jugador " << i+1 << " : ";
-        std::cin >> name;
+        string name;
+        cout << "Ingresar nombre del jugador " << i+1 << " : ";
+        cin >> name;
         Jugador player(i, name);
         Orden.push_back(player);
-        std::cout << std::endl;
+        cout << endl;
     }
 }
-
-void Juego::next() {}
 
 void Juego::bancarrota(){}
 
@@ -37,38 +35,49 @@ void Juego::iniciar() {
     for (int i = 0; i < num_jugadores; i++) {
         Orden[i].posicion = mesa.head_;
     }
-    std::cout << std::endl << "##  ¡¡INICIA EL JUEGO!!  ##" << std::endl << std::endl;
+    cout << endl << "##  ¡¡INICIA EL JUEGO!!  ##" << endl << endl;
     JuegoEnMarcha = true;
     int primero, segundo, avance, en_turno = 0;
     while (JuegoEnMarcha) {
         if (en_turno == num_jugadores) {
             en_turno = 0;
         }
-        std::cout<<std::endl;
-        cout<<"Es el turno del jugador "<<Orden[en_turno].nombre<<" tiene "<<Orden[en_turno].Dinero<<endl;
-        if(Orden[en_turno].free) {
-            std::cout << "Presione enter para lanzar los dados" << std::endl;
-            std::string vacio;
-            std::cin >> vacio;
-            primero = dado1.lanzar();
-            segundo = dado2.lanzar();
-            avance = primero + segundo;
-            Orden[en_turno].avanzar(avance);
-            if((dynamic_cast<GoToJail*>(Orden[en_turno].posicion))||(dynamic_cast<Impuesto*>(Orden[en_turno].posicion))||(dynamic_cast<ParadaLibre*>(Orden[en_turno].posicion))||(dynamic_cast<ArcaComunal*>(Orden[en_turno].posicion))){
-                Orden[en_turno].posicion->ejecutar(&Orden[en_turno], &mesa);
-            }
-            else
-                {
-                Orden[en_turno].posicion->ejecutar(&Orden[en_turno]);
+        cout << endl;
+        cout << "Es el turno del jugador " << Orden[en_turno].nombre << " tiene " << Orden[en_turno].Dinero << endl;
+        if (Orden[en_turno].free) {
+            int seguidas = 0;
+            do {
+                cout << "Presione enter para lanzar los dados" << std::endl;
+                string vacio;
+                cin >> vacio;
+                primero = dado1.lanzar();
+                segundo = dado2.lanzar();
+                if (primero == segundo)seguidas++;
+                if (seguidas == 3) {
+                    Orden[en_turno].free = false;
+                    Orden[en_turno].posicion = mesa.jail;
+                    cout
+                            << "Tuviste 3 lanzamientos en los que tus dados obtuvieron números iguales, ahora te encuentras en la casilla "
+                            << mesa.jail->nombre << endl;
+                    break;
                 }
+                avance = primero + segundo;
+                Orden[en_turno].avanzar(avance);
+                if ((dynamic_cast<GoToJail *>(Orden[en_turno].posicion))
+                    || (dynamic_cast<Impuesto *>(Orden[en_turno].posicion))
+                    || (dynamic_cast<ParadaLibre *>(Orden[en_turno].posicion))
+                    || (dynamic_cast<ArcaComunal *>(Orden[en_turno].posicion))) {
+                    Orden[en_turno].posicion->ejecutar(&Orden[en_turno], &mesa);
+                } else {
+                    Orden[en_turno].posicion->ejecutar(&Orden[en_turno]);
+                }
+            } while (primero == segundo);
             Orden[en_turno].opciones();
+            en_turno++;
+        } else {
+            Orden[en_turno].en_carcel(&dado1, &dado2);
             en_turno++;
         }
 
-    };
-
-//        //      Orden[en_turno].posicion->accion(Orden[en_turno]);
-//
-//
-//        JuegoEnMarcha = false;
+    }
 }

@@ -6,7 +6,7 @@
 #define PROYECTO_TABLERO_H
 
 #include "casilla.h"
-#include <vector>
+#include <deque>
 #include "accion.h"
 
 class tablero {
@@ -14,7 +14,8 @@ public:
     casilla* head_;
     casilla* jail;
     int pozo;
-    vector <int> Arca;
+    deque <int> Baraja_Arca;
+    deque <int> Baraja_Fortuna;
     tablero();
     void imprimirtablero();
     casilla* crear(int i);
