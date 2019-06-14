@@ -1,3 +1,0 @@
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/Proyecto.dir
-/home/fabrizio/UTEC/Monopoly_POOII/Presentar/cmake-build-debug/CMakeFiles/edit_cache.dir
