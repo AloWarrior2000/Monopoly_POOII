@@ -1,3 +1,0 @@
-/home/alonso/Escritorio/gil/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alonso/Escritorio/gil/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir
-/home/alonso/Escritorio/gil/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir

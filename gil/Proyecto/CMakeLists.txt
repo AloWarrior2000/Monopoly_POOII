@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.13.4)
-project(Proyecto)
-
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(Proyecto main.cpp tablero.cpp tablero.h casilla.cpp casilla.h comprables.cpp comprables.h jugador.cpp jugador.h dado.cpp dado.h juego.cpp juego.h accion.cpp)
