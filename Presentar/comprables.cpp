@@ -26,9 +26,10 @@ void comprables::ejecutar(Jugador* huesped) {
                 disponible = false;
                 huesped->compradas.push_back(huesped->posicion);
                 dueno = huesped;
+		dynamic_cast<propiedades *>(huesped->posicion)->setAlquiler();
                 cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
             }
-            dynamic_cast<propiedades *>(huesped->posicion)->setAlquiler();
+            
         }
     } else {
         if(dynamic_cast<compania*>(huesped->posicion)== nullptr) {
