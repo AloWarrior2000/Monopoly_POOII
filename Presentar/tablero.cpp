@@ -1,7 +1,6 @@
 //
 // Created by fabrizio on 5/31/19.
 //
-
 #include <iostream>
 #include "tablero.h"
 #include "comprables.h"
@@ -134,84 +133,7 @@ casilla* tablero::crear(int i) {
 
 
     return casilla;
-
-
 }
-
-ArcaComunal* tablero::crearArcaComunal(int i)
-{
-    ArcaComunal* arcacomunal;
-    switch (i) {
-        case 0:
-            arcacomunal = new ArcaComunal("Avance hasta la casilla Celeste1, si pasa por GO cobre sus 200");
-            break;
-        case 1:
-            arcacomunal = new ArcaComunal("Avance directamente hasta la casilla GO");
-            break;
-        case 2:
-            arcacomunal = new ArcaComunal("APERTURA DE LA ÓPERA. COBRE $50 DE CADA JUGADOR PARA PAGAR SUS BUTACAS DE APERTURA");
-            break;
-        case 3:
-            arcacomunal = new ArcaComunal("SU HOSPITAL EXIGE UN PAGO DE $100");
-            break;
-        case 4:
-            arcacomunal = new ArcaComunal("USTED HA SIDO ELEGIDO PRESIDENTE DEL CONSEJO, PAGUE $50 A CADA JUGADOR");
-            break;
-        case 5:
-            arcacomunal = new ArcaComunal("USTED HEREDA $100");
-            break;
-        case 6:
-            arcacomunal = new ArcaComunal("SALGA DE LA CÁRCEL GRATIS");
-            break;
-        case 7:
-            arcacomunal = new ArcaComunal("Le toca recibir $25 por servicios prestados");
-            break;
-        case 8:
-            arcacomunal = new ArcaComunal("¡Al calabozo! Vaya directamente a la cárcel sin pasar por GO ni cobrar $200");
-            break;
-        case 9:
-            arcacomunal = new ArcaComunal("Celeste3");
-            break;
-        case 10:
-            arcacomunal = new ArcaComunal("V");
-            break;
-        case 11:
-            arcacomunal = new ArcaComunal("Morado1");
-            break;
-        case 12:
-            arcacomunal = new ArcaComunal("c1");
-            break;
-        case 13:
-            arcacomunal = new ArcaComunal("Morado2");
-            break;
-        case 14:
-            arcacomunal = new ArcaComunal("Morado3");
-            break;
-        case 15:
-            arcacomunal = new ArcaComunal("F2");
-            break;
-        case 16:
-            arcacomunal = new ArcaComunal("Naranja1");
-            break;
-        case 17:
-            arcacomunal = new ArcaComunal("A");
-            break;
-        case 18:
-            arcacomunal = new ArcaComunal("Naranja2");
-            break;
-        case 19:
-            arcacomunal = new ArcaComunal("Naranja3");
-            break;
-        case 20:
-            arcacomunal = new ArcaComunal("Pl");
-            break;   }
-
-
-    return arcacomunal;
-
-
-}
-
 
 tablero::tablero() {
     pozo=0;
@@ -230,6 +152,39 @@ tablero::tablero() {
         }
     }
     tail_->next=head_;
+
+    srand(time(NULL));
+    bool posible1=true,posible2=true;
+    int i=0,j=0;
+    do{
+        int x=rand()%20;
+        for(auto item:fortuna){
+            if(x==item){
+                posible1=false;
+            }
+        }
+        if(posible1){
+            fortuna.push_back(x);
+            i++;
+        }
+        posible1=true;
+    }while(i<20);
+
+    do{
+        int x=rand()%20;
+        for(auto item:arcacomunal){
+            if(x==item){
+                posible2=false;
+            }
+        }
+        if(posible2){
+            arcacomunal.push_back(x);
+            j++;
+        }
+        posible2=true;
+    }while(j<20);
+
+
 }
 
 void tablero::imprimirtablero() {

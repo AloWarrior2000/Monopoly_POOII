@@ -7,6 +7,7 @@
 
 #include "casilla.h"
 #include <vector>
+#include <deque>
 #include "accion.h"
 
 class tablero {
@@ -14,11 +15,11 @@ public:
     casilla* head_;
     casilla* jail;
     int pozo;
-    vector<ArcaComunal*> AC;
+    deque<int> fortuna;
+    deque<int> arcacomunal;
     tablero();
     void imprimirtablero();
     casilla* crear(int i);
-    ArcaComunal* crearArcaComunal(int i);
 };
 
 

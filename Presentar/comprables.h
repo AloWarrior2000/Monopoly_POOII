@@ -19,6 +19,7 @@ public:
     int alquiler;
     Jugador* dueno;
     bool disponible;
+    bool hipotecado;
     virtual void setAlquiler(){};
     comprables(std::string _nombre, int _precio, int _alquiler);
     void ejecutar(Jugador* huesped)override;

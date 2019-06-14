@@ -14,6 +14,7 @@ comprables::comprables(std::string _nombre, int _precio, int _alquiler):casilla(
     alquiler = _alquiler;
     dueno= nullptr;
     disponible = true;
+    hipotecado=false;
 }
 void comprables::ejecutar(Jugador* huesped) {
     if (disponible) {
@@ -32,16 +33,19 @@ void comprables::ejecutar(Jugador* huesped) {
             
         }
     } else {
-        if(dynamic_cast<compania*>(huesped->posicion)== nullptr) {
-            cout << "Debe pagarle a " << dueno->nombre << " un total de " << alquiler<<endl;
-            huesped->Dinero -= alquiler;
-            dueno->Dinero += alquiler;
-        }
-        else{
-            dado uno,dos;
-            cout<<"Debe pagar "<<alquiler*(uno.lanzar()+dos.lanzar())<<endl;
-            huesped->Dinero-=alquiler*(uno.lanzar()+dos.lanzar());
-            dueno->Dinero+=alquiler*(uno.lanzar()+dos.lanzar());
+        if (hipotecado) {
+            cout << "Se encuentra hipotecada" << endl;
+        } else {
+            if (dynamic_cast<compania *>(huesped->posicion) == nullptr) {
+                cout << "Debe pagarle a " << dueno->nombre << " un total de " << alquiler << endl;
+                huesped->Dinero -= alquiler;
+                dueno->Dinero += alquiler;
+            } else {
+                dado uno, dos;
+                cout << "Debe pagar " << alquiler * (uno.lanzar() + dos.lanzar()) << endl;
+                huesped->Dinero -= alquiler * (uno.lanzar() + dos.lanzar());
+                dueno->Dinero += alquiler * (uno.lanzar() + dos.lanzar());
+            }
         }
     }
 }

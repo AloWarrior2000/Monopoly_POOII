@@ -32,7 +32,13 @@ public:
 
     void mostrar_propiedades();
 
+    void hipotecar();
+
+    void deshipotecar();
+
     void comprar_casas();
+
+    void vender_casas();
 
     void opciones();
 

@@ -15,9 +15,10 @@ void Impuesto::ejecutar(Jugador * huesped, tablero* Monopoly) {
         huesped->Dinero -= imp;
         Monopoly->pozo+=imp;
     } else {
-        huesped->Dinero -= huesped->Dinero*porciento;
         cout << "Se pago " << huesped->Dinero * porciento<<endl;
         Monopoly->pozo+=huesped->Dinero*porciento;
+        huesped->Dinero -= huesped->Dinero*porciento;
+
     }
 }
 
