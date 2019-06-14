@@ -51,7 +51,7 @@ void Juego::iniciar() {
                 string vacio;
                 cin >> vacio;
                 primero = dado1.lanzar();
-                segundo = dado2.lanzar();
+                segundo = 0;//dado2.lanzar();
                 if (primero == segundo)
                     seguidas++;
                 if (seguidas == 3) {

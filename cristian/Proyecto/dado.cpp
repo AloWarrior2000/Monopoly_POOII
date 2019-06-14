@@ -12,5 +12,5 @@ int dado::lanzar() {
     std::cout << "El dado saco " << lanzamiento << std::endl;
 
     //return lanzamiento;
-    return 6;
+    return 1;
 }

@@ -22,7 +22,7 @@ void comprables::ejecutar(Jugador* huesped) {
                 huesped->compradas.push_back(huesped->posicion);
                 dueno = huesped;
                 cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
-                dynamic_cast<comprables*>(huesped->posicion)->set_alquiler();
+               dynamic_cast<comprables*>(huesped->posicion)->set_alquiler();
 
             }
         }
@@ -45,7 +45,7 @@ void comprables::ejecutar(Jugador* huesped) {
                         dueno->Dinero += alquiler * (uno.lanzar() + dos.lanzar());
                     }
                 } else {
-                    huesped->mostrar_propiedades();
+                    huesped->opciones();
                 }
             }while(huesped->Dinero<alquiler);
             }
@@ -54,8 +54,7 @@ void comprables::ejecutar(Jugador* huesped) {
 
 void propiedades::set_alquiler()
 {
-
-int mismo_color = 0;
+    int mismo_color = 0;
     if (casas==0){
     for (auto it:dueno->compradas)
     {

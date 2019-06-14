@@ -4,6 +4,7 @@
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../accion.cpp
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../accion.h
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../casilla.h
+CMakeFiles/Proyecto.dir/accion.cpp.o: ../comprables.h
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../dado.h
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../jugador.h
 CMakeFiles/Proyecto.dir/accion.cpp.o: ../tablero.h

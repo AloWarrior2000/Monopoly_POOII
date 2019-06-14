@@ -52,24 +52,24 @@ void Jugador::comprar_casas() {
     cin >> respuesta;
     respuesta -= 1;
     int mismo_color = 0;
-    auto destino = dynamic_cast<propiedades *>(compradas[respuesta]);
+    //auto destino = dynamic_cast<propiedades *>(compradas[respuesta]);
     for (auto it:compradas) {
         auto aux = dynamic_cast<propiedades *>(it);
-        if (destino->color == aux->color) {
+        if (dynamic_cast<propiedades *>(compradas[respuesta])->color == aux->color) {
             mismo_color++;
-            if (destino->casas > aux->casas | destino->casas==5) {
+            if (dynamic_cast<propiedades *>(compradas[respuesta])->casas > aux->casas | dynamic_cast<propiedades *>(compradas[respuesta])->casas==5) {
                 posible = false;
             }
         }
     }
     if (posible) {
-        if (destino->color == "Azul" | destino->color == "Marron") {
+        if (dynamic_cast<propiedades *>(compradas[respuesta])->color == "Azul" | dynamic_cast<propiedades *>(compradas[respuesta])->color == "Marron") {
             if (mismo_color < 2) {
                 cout << "Le faltan propiedades del mismo color" << endl;
             } else {
-                if (Dinero > destino->precio_casa) {
-                    Dinero -= destino->precio_casa;
-                    destino->casas++;
+                if (Dinero > dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa) {
+                    Dinero -= dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa;
+                    dynamic_cast<propiedades *>(compradas[respuesta])->casas++;
                     cout << "Compraste una casa" << endl;
                 } else {
                     cout << "No tienes dinero" << endl;
@@ -79,9 +79,9 @@ void Jugador::comprar_casas() {
             if (mismo_color < 3) {
                 cout << "Le faltan propiedades del mismo color" << endl;
             } else {
-                if (Dinero > destino->precio_casa) {
-                    Dinero -= destino->precio_casa;
-                    destino->casas++;
+                if (Dinero > dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa) {
+                    Dinero -= dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa;
+                    dynamic_cast<propiedades *>(compradas[respuesta])->casas++;
                     cout << "Compraste una casa"<<endl;
                 } else {
                     cout << "No tienes dinero"<<endl;
@@ -98,26 +98,26 @@ void Jugador::vender_casas() {
     bool posible=true;
     cout<<"En que propiedad desea vender las casas"<<endl;
     mostrar_propiedades();
-    int respuesta;
+    int respuesta = 0;
     cin >> respuesta;
     respuesta -= 1;
-    if(dynamic_cast<propiedades*>(compradas[respuesta]= nullptr)){
+    if(dynamic_cast<propiedades*>(compradas[respuesta]) == nullptr){
         cout<<"Ingrese una opcion valida"<<endl;
     }
     else{
-        if(dynamic_cast<propiedades*>(compradas[respuesta])->casas=0){
+        if(dynamic_cast<propiedades*>(compradas[respuesta])->casas==0){
             cout<<"No tiene casas esta propiedad"<<endl;
         }
         else{
             for(auto it:compradas){
-                if(dynamic_cast<propiedades*>(compradas[respuesta])->casas< dynamic_cast<propiedades*>(it)->casas){
-                    posible=false;
+                if(dynamic_cast<propiedades*>(compradas[respuesta])->casas < dynamic_cast<propiedades*>(it)->casas){
+                    posible = false;
                 }
             }
             if(posible){
                 Dinero+= dynamic_cast<propiedades*>(compradas[respuesta])->precio_casa/2;
                 dynamic_cast<propiedades*>(compradas[respuesta])->casas--;
-                cout<<"Ahora la propiedad "<<dynamic_cast<propiedades*>(compradas[respuesta])->nombre<<" tiene "<<dynamic_cast<propiedades*>(compradas[respuesta])->casas<<" casas";
+                cout<<"Ahora la propiedad "<<dynamic_cast<propiedades*>(compradas[respuesta])->nombre<<" tiene "<<dynamic_cast<propiedades*>(compradas[respuesta])->casas<<" casas"<<endl;
             }
         }
     }
