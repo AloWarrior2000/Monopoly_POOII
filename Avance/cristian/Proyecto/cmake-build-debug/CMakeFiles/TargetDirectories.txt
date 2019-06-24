@@ -1,0 +1,3 @@
+C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir
+C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
