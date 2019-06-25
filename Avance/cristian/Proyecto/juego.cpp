@@ -52,7 +52,8 @@ void Juego::iniciar() {
                 string vacio;
                 cin >> vacio;
                 primero = dado1.lanzar();
-                segundo = dado2.lanzar();
+//                segundo = dado2.lanzar();
+                    segundo=0;
                 if (primero == segundo)
                     seguidas++;
                 if (seguidas == 3) {
@@ -89,6 +90,7 @@ void Juego::iniciar() {
             en_turno++;
         }
 
+//        Orden[en_turno]->cambiar_alquileres();
 
     }
 }

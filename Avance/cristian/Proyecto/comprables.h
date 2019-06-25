@@ -13,12 +13,12 @@ class tablero;
 class comprables: public casilla {
 public:
     int precio;
-    int alquiler;
+    int alquiler,pagar;
     Jugador* dueno;
     bool disponible;
     bool hipotecado;
     comprables(std::string nombre, int precio, int alquiler):casilla{nombre}
-    ,precio{precio},alquiler{alquiler},disponible{true},dueno{nullptr},
+    ,precio{precio},pagar{alquiler},disponible{true},dueno{nullptr},
     hipotecado{false}{}
     virtual void set_alquiler(){}
     void ejecutar(Jugador* huesped)override;

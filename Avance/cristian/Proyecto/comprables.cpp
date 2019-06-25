@@ -22,7 +22,8 @@ void comprables::ejecutar(Jugador* huesped) {
                 huesped->compradas.push_back(dynamic_cast<comprables*>(huesped->posicion));
                 dueno = huesped;
                 cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
-               dynamic_cast<comprables*>(huesped->posicion)->set_alquiler();
+//               dynamic_cast<comprables*>(huesped->posicion)->set_alquiler();
+                huesped->cambiar_alquileres();
 
             }
         }
@@ -67,26 +68,30 @@ void propiedades::set_alquiler()
     {
         if(mismo_color==2)
         {
-            alquiler = alquiler*2;
+            alquiler = pagar*2;
         }
+        else
+            alquiler=pagar;
     }
     else
     {
         if(mismo_color==3)
         {
-            alquiler = alquiler*2;
+            alquiler = pagar*2;
         }
+        else
+            alquiler=pagar;
     }
     }
     else
     {
         switch(casas)
         {
-            case 1: alquiler=alquiler*5/2;
-            case 2: alquiler=alquiler*3;
-            case 3: alquiler=alquiler*5/2;
-            case 4: alquiler=alquiler*5/4;
-            case 5: alquiler=alquiler*6/5;
+            case 1: alquiler=pagar*5/2;
+            case 2: alquiler=pagar*15/2;
+            case 3: alquiler=pagar*75/4;
+            case 4: alquiler=pagar*375/16;
+            case 5: alquiler=pagar*225/8;
         }
     }
 }
@@ -98,7 +103,7 @@ void ferrocarril::set_alquiler(){
             numero_ferrocarriles++;
         }
     }
-    alquiler=alquiler*pow(2,numero_ferrocarriles-1);
+    alquiler=25*pow(2,numero_ferrocarriles-1);
 
 }
 
@@ -112,4 +117,6 @@ void compania::set_alquiler() {
     if(numero_compania==2){
         alquiler=10;
     }
+    else
+        alquiler=4;
 }

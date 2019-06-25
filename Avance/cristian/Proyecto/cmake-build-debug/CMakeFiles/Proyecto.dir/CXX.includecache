@@ -6,61 +6,61 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/accion.cpp
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.cpp
 accion.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/accion.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
 jugador.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/jugador.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
 tablero.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/tablero.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
 comprables.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/comprables.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
 iostream
 -
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/accion.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
 string
 -
 casilla.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/casilla.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/casilla.h
 vector
 -
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/casilla.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/casilla.h
 string
 -
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/comprables.cpp
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.cpp
 iostream
 -
 comprables.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/comprables.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
 jugador.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/jugador.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
 tablero.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/tablero.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/comprables.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
 string
 -
 casilla.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/casilla.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/casilla.h
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/dado.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/dado.h
 random
 -
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/juego.cpp
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.cpp
 juego.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/juego.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.h
 random
 -
 time.h
 -
 jugador.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/jugador.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/juego.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.h
 string
 -
 iostream
@@ -68,41 +68,53 @@ iostream
 vector
 -
 dado.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/dado.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/dado.h
 tablero.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/tablero.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/jugador.cpp
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.cpp
 iostream
 -
 jugador.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/jugador.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
 comprables.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/comprables.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
 algorithm
 -
 numeric
 -
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/jugador.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
 string
 -
 vector
 -
 casilla.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/casilla.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/casilla.h
 dado.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/dado.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/dado.h
 comprables.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/comprables.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
 juego.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/juego.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.h
 
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/tablero.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.cpp
+iostream
+-
+ctime
+-
+tablero.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
+comprables.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
+accion.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
+
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
 casilla.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/casilla.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/casilla.h
 deque
 -
 accion.h
-C:/Users/user/Desktop/Monopoly_POOII-master/cristian/Proyecto/accion.h
+/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
 

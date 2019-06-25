@@ -29,7 +29,7 @@ void Jugador::mostrar_propiedades()
         auto aux= dynamic_cast<propiedades*>(compradas[i]);
         if(aux!= nullptr){
             if(aux->casas!=5)
-                cout<< i+1 << ". " << aux->nombre<<" con "<<aux->casas<<" casas"<<endl;
+                cout<< i+1 << ". " << aux->nombre<<" con "<<aux->casas<<" casas y el alquiler es de "<<aux->alquiler<<endl;
             else
                 cout<<i+1 << ". " << aux->nombre<<" con 1 hotel"<<endl;
         }
@@ -71,6 +71,7 @@ void Jugador::comprar_casas() {
                 if (Dinero > dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa) {
                     Dinero -= dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa;
                     dynamic_cast<propiedades *>(compradas[respuesta])->casas++;
+                    dynamic_cast<propiedades*>(compradas[respuesta])->set_alquiler();
                     cout << "Compraste una casa" << endl;
                 } else {
                     cout << "No tienes dinero" << endl;
@@ -84,6 +85,7 @@ void Jugador::comprar_casas() {
                     Dinero -= dynamic_cast<propiedades *>(compradas[respuesta])->precio_casa;
                     dynamic_cast<propiedades *>(compradas[respuesta])->casas++;
                     cout << "Compraste una casa"<<endl;
+                    dynamic_cast<propiedades*>(compradas[respuesta])->set_alquiler();
                 } else {
                     cout << "No tienes dinero"<<endl;
                 }
@@ -93,6 +95,7 @@ void Jugador::comprar_casas() {
     else{
         cout<<"No puede comprar una casa aqui"<<endl;
     }
+
 }
 
 void Jugador::vender_casas() {
@@ -118,11 +121,19 @@ void Jugador::vender_casas() {
             if(posible){
                 Dinero+= dynamic_cast<propiedades*>(compradas[respuesta])->precio_casa/2;
                 dynamic_cast<propiedades*>(compradas[respuesta])->casas--;
+                dynamic_cast<propiedades*>(compradas[respuesta])->set_alquiler();
                 cout<<"Ahora la propiedad "<<dynamic_cast<propiedades*>(compradas[respuesta])->nombre<<" tiene "<<dynamic_cast<propiedades*>(compradas[respuesta])->casas<<" casas"<<endl;
             }
         }
     }
 }
+
+void Jugador::cambiar_alquileres() {
+    for(auto it:compradas){
+        it->set_alquiler();
+    }
+}
+
 
 void Jugador::hipotecar() {
     cout << "Que propiedad desea hipotecar?" << endl;
@@ -360,8 +371,11 @@ void Jugador::mostrar_ofertas() {
             duenos_ofertas[respuesta]->Dinero += piden_dinero[respuesta];
             oferta_dinero.erase(std::remove(oferta_dinero.begin(), oferta_dinero.end(), oferta_dinero[respuesta]),
                                 oferta_dinero.end());
+            duenos_ofertas[respuesta]->cambiar_alquileres();
             duenos_ofertas.erase(std::remove(duenos_ofertas.begin(), duenos_ofertas.end(), duenos_ofertas[respuesta]),
                                  duenos_ofertas.end());
+            cambiar_alquileres();
+
 
         }
 

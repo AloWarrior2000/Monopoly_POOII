@@ -55,7 +55,7 @@ public:
     void opciones(vector<Jugador*> Orden);
     void negociar(vector<Jugador*> Orden);
     void en_carcel(dado* A, dado* B);
-
+    void cambiar_alquileres();
 
 };
 
