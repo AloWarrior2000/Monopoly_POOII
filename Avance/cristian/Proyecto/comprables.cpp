@@ -53,49 +53,40 @@ void comprables::ejecutar(Jugador* huesped) {
         }
     }
 
-void propiedades::set_alquiler()
-{
+void propiedades::set_alquiler() {
     int mismo_color = 0;
-    if (casas==0){
-    for (auto it:dueno->compradas)
-    {
-        if (color == dynamic_cast<propiedades*>(it)->color) {
-            mismo_color++;
+    if (casas == 0) {
+        for (auto it:dueno->compradas) {
+            if (color == dynamic_cast<propiedades *>(it)->color) {
+                mismo_color++;
 
+            }
+        }
+        if (color == "Azul" || color == "Marron") {
+            if (mismo_color == 2) {
+                alquiler = pagar * 2;
+            } else
+                alquiler = pagar;
+        } else {
+            if (mismo_color == 3) {
+                alquiler = pagar * 2;
+            } else
+                alquiler = pagar;
         }
     }
-    if(color == "Azul" || color=="Marron")
-    {
-        if(mismo_color==2)
-        {
-            alquiler = pagar*2;
-        }
-        else
-            alquiler=pagar;
-    }
-    else
-    {
-        if(mismo_color==3)
-        {
-            alquiler = pagar*2;
-        }
-        else
-            alquiler=pagar;
-    }
-    }
-    else
-    {
-        switch(casas)
-        {
-            case 1: alquiler=pagar*5/2;
-            case 2: alquiler=pagar*15/2;
-            case 3: alquiler=pagar*75/4;
-            case 4: alquiler=pagar*375/16;
-            case 5: alquiler=pagar*225/8;
-        }
-    }
+//    else
+//    {
+//        switch(casas)
+//        {
+//            case 1: alquiler=pagar*5/2;
+//            case 2: alquiler=pagar*15/2;
+//            case 3: alquiler=pagar*75/4;
+//            case 4: alquiler=pagar*375/16;
+//            case 5: alquiler=pagar*225/8;
+//        }
+//    }
+//}
 }
-
 void ferrocarril::set_alquiler(){
     int numero_ferrocarriles=0;
     for(auto it:dueno->compradas){

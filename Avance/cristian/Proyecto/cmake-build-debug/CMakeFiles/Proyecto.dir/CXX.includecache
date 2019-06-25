@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.cpp
-accion.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
-jugador.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
-tablero.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
-comprables.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
-iostream
--
-
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
 string
 -
@@ -50,16 +38,6 @@ casilla.h
 random
 -
 
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.cpp
-juego.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.h
-random
--
-time.h
--
-jugador.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
-
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.h
 string
 -
@@ -71,18 +49,6 @@ dado.h
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/dado.h
 tablero.h
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
-
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.cpp
-iostream
--
-jugador.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
-comprables.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
-algorithm
--
-numeric
--
 
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/jugador.h
 string
@@ -97,18 +63,6 @@ comprables.h
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
 juego.h
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/juego.h
-
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.cpp
-iostream
--
-ctime
--
-tablero.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
-comprables.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/comprables.h
-accion.h
-/home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/accion.h
 
 /home/fabrizio/Desktop/Monopoly_POOII/Avance/cristian/Proyecto/tablero.h
 casilla.h
