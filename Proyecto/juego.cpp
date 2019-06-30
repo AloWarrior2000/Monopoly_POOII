@@ -12,9 +12,9 @@ using namespace std;
 
 void Juego::definir_jugadores() {
     do {
-        cout << "Definir numero de jugadores (2 - 8): ";
+        cout << "Definir numero de jugadores (2 - 4): ";
         cin >> num_jugadores;
-    } while (num_jugadores < 2 | num_jugadores > 8);
+    } while (num_jugadores < 2 | num_jugadores > 4);
     cout <<endl<< "Ahora defina los jugadores en el orden en que jugarán." <<endl;
     for (int i = 0; i < num_jugadores; ++i) {
         string name;

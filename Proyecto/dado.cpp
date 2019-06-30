@@ -11,6 +11,6 @@ int dado::lanzar() {
     int lanzamiento = 1+ rand()%6;
     std::cout << "El dado saco " << lanzamiento << std::endl;
 
-    return 1;
-//    return lanzamiento;
+//    return 1;
+    return lanzamiento;
 }
