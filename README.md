@@ -1,8 +1,9 @@
 # Monopolio
 
-El proyecto que elegimos para el curso de Programación Orientada a Objetos es un juego de mesa llamado Monopolio. Este juego consiste principalmente en la compra de propiedades para estar mejor posicionado que los demas.
+El proyecto que elegimos para el curso de Programación Orientada a Objetos es un juego de mesa llamado Monopolio. Este juego consiste principalmente en la compra de propiedades para estar mejor posicionado que los demás.
 
 ## Instruciones de uso
+Una vez se corre el codigo el juego inicia. Luego debes presionar un número entre 2 y 4 para que las fichas aparezcan en el tablero. Despues, el primer jugador debe presionar la tecla "Intro" para iniciar su turno. Ahora, en el turno del jugador, se debe presionar "Intro" una vez más para lanzar los dados. Una vez se tiene el resultado de los dados, el jugador de turno debe presionar la tecla "a" para avanzar. Cuando el jugador caiga en una casilla de propiedad se plantea la pregunta si se desea comprar o no la propiedad, y la respuesta se da presionando las teclas "s" (para si) o "n" (para no).
 
 ## Reglas del juego
 
