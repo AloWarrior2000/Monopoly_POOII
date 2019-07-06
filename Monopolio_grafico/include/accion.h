@@ -17,47 +17,46 @@ class Impuesto: public casilla
     int imp;
     float porciento;
 public:
-    Impuesto(string nombre,int imp,float porciento):casilla(nombre),imp{imp},porciento{porciento}{}
-    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
+    Impuesto(string nombre, int posx, int posy, int imp,float porciento):casilla(nombre, posx, posy),imp{imp},porciento{porciento}{}
+    virtual void ejecutar(Jugador* huesped, tablero* Monopoly, bool& txt_1, int& num)override;
 };
 
 class ArcaComunal:public casilla {
 private:
     string nombre;
 public:
-    ArcaComunal(string nombre):casilla(nombre){}
-    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
+    ArcaComunal(string nombre, int posx, int posy):casilla(nombre, posx, posy){}
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override{};
 
 };
 
 class Fortuna:public casilla{
     string nombre;
 public:
-    Fortuna(string nombre):casilla(nombre){}
-    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
+    Fortuna(string nombre, int posx, int posy):casilla(nombre, posx, posy){}
+    void ejecutar(Jugador* huesped, tablero* Monopoly)override{};
 };
 
 class Jail:public casilla{
 public:
-    Jail(string nombre):casilla(nombre){}
+    Jail(string nombre, int posx, int posy):casilla(nombre, posx ,posy){}
 };
 
 class ParadaLibre: public casilla{
 public:
-    int Pozo;
-    ParadaLibre(string nombre):casilla(nombre),Pozo{0}{}
-    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
+    ParadaLibre(string nombre, int posx, int posy):casilla(nombre, posx, posy){}
+    void ejecutar(Jugador* huesped, tablero* Monopoly, bool& txt_1, int& num)override;
 };
 
 class Go:public casilla{
 public:
-    Go(string nombre):casilla(nombre){}
+    Go(string nombre, int posx, int posy):casilla(nombre, posx, posy){}
 };
 
 class GoToJail:public casilla{
 public:
-    GoToJail(string nombre):casilla(nombre){}
-    void ejecutar(Jugador* huesped, tablero* Monopoly)override;
+    GoToJail(string nombre, int posx, int posy):casilla(nombre, posx, posy){}
+    void ejecutar(Jugador* huesped, tablero* Monopoly, bool& txt_1, int& num)override;
 };
 
 

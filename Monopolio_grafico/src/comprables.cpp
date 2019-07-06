@@ -8,45 +8,59 @@
 #include "tablero.h"
 using namespace std;
 
-void comprables::ejecutar(Jugador* huesped) {
-    string respuesta;
+void comprables::ejecutar(Jugador* huesped, bool& txt_out1, bool selected, int selec, bool& txt_out2, bool& trans,bool& hipotecada,bool& pagar_alquiler, bool& no_compra, bool& alq_pagado) {
+   // string respuesta;
     if(disponible){
-        do {
-            cout << "Desea comprar la propiedad " << nombre <<" que cuesta "<<precio<<" y cuyo alquiler es de "<<alquiler<<endl;
-            cin >> respuesta;
-        }while(respuesta != "si" && respuesta !="no");
-        if(respuesta=="si"){
+            if(selected){
+            if(selec==1){
             if(huesped->Dinero >= precio){
                 huesped->Dinero -= precio;
                 disponible = false;
                 huesped->compradas.push_back(dynamic_cast<comprables*>(huesped->posicion));
                 dueno = huesped;
-                cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
+                //cout << huesped->nombre << " compro " << huesped->posicion->nombre << endl;
 //               dynamic_cast<comprables*>(huesped->posicion)->set_alquiler();
-                huesped->cambiar_alquileres();
-
+              //  huesped->cambiar_alquileres();
+                txt_out1 = false;
+                txt_out2 = true;
+                trans = true;
             }
         }
+            else{
+                    txt_out1 = false;
+                    txt_out2 = false;
+                    selected = false;
+                    no_compra = true;
+                }
+            }
+            else
+            {
+            txt_out1 = true;
+            }
         }
     else
    {
         if (hipotecado) {
-            cout << "Se encuentra hipotecada" << endl;
+            hipotecado = true;
         } else {
+            if(!alq_pagado){
+            pagar_alquiler = true;
+            alq_pagado = true;
 //            do {
-                if (huesped->Dinero > alquiler) {
-                    huesped->deuda=false;
+              //  if (huesped->Dinero > alquiler) {
+                //    huesped->deuda=false;
                     if (dynamic_cast<compania*>(huesped->posicion) == nullptr) {
-                        cout << "Debe pagarle a " << dueno->nombre << " un total de " << alquiler << endl;
+                     //   cout << "Debe pagarle a " << dueno->nombre << " un total de " << alquiler << endl;
                         huesped->Dinero -= alquiler;
                         dueno->Dinero += alquiler;
                     } else {
                         dado uno, dos;
-                        cout << "Debe pagar " << alquiler * (uno.lanzar() + dos.lanzar()) << endl;
+                    //    cout << "Debe pagar " << alquiler * (uno.lanzar() + dos.lanzar()) << endl;
                         huesped->Dinero -= alquiler * (uno.lanzar() + dos.lanzar());
                         dueno->Dinero += alquiler * (uno.lanzar() + dos.lanzar());
                     }
-                } else {
+                }
+                }/* else {
                     huesped->deuda=true;
                     cout<<"Debe pagar la deuda para seguir jugando o se declara en bancarrota"<<endl;
                     cout<<"1) Seguir jugando"<<endl;
@@ -66,7 +80,8 @@ void comprables::ejecutar(Jugador* huesped) {
                 }
 //            }while(huesped->Dinero<alquiler);
             }
-        }
+        }*/
+    }
     }
 
 void propiedades::set_alquiler() {

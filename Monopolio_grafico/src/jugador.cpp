@@ -17,8 +17,6 @@ void Jugador::avanzar(int casillas) {
             Dinero+=200;
         }
     }
-
-    cout<<"\nEl jugador "<<nombre<<" avanzó hasta la casilla "<<posicion->nombre<<std::endl;
 }
 
 void Jugador::mostrar_propiedades()
@@ -174,47 +172,32 @@ void Jugador::deshipotecar() {
 
 }
 
-void Jugador::opciones(vector<Jugador*> Orden)
+void Jugador::opciones(vector<Jugador*> Orden, int choice)
 {
-    int opcion;
-    do {
-        cout << "Ahora, ¿qué acción quieres realizar? Escribe el número de la opción que elija" << endl;
-        cout << "1. Terminar mi turno" << endl;
-        cout << "2. Negociar con otro jugador" << endl;
-        cout << "3. Ver mis propiedades" << endl;
-        cout << "4. Hipotecar mis propiedades" << endl;
-        cout << "5. Deshipotecar mis propiedades"<< endl;
-        cout << "6. Comprar casas" << endl;
-        cout << "7. Vender casas" << endl;
-        cout << "8. Bancarrota"<< endl;
-        cin >> opcion;
-        switch (opcion) {
+        switch (choice) {
             case 1:
                 break;
             case 2:
-                negociar(Orden);
+              //  negociar(Orden);
                 break;
             case 3:
                 mostrar_propiedades();
                 break;
             case 4:
-                hipotecar();
+              //  hipotecar();
                 break;
             case 5:
-                deshipotecar();
+              //  deshipotecar();
                 break;
             case 6:
-                comprar_casas();
+           //     comprar_casas();
                 break;
             case 7:
-                vender_casas();
+            //    vender_casas();
             case 8:
                 break;
         }
     }
-    while(opcion!=1);
-
-}
 
 
 void Jugador::en_carcel(dado* A, dado* B) {

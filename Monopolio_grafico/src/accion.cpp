@@ -9,19 +9,21 @@
 #include <iostream>
 
 
-void Impuesto::ejecutar(Jugador * huesped, tablero* Monopoly) {
-    cout << "Tiene que pagar un impuesto"<<endl;
+void Impuesto::ejecutar(Jugador * huesped, tablero* Monopoly, bool& txt_1, int& num) {
+    txt_1 = true;
     if (huesped->Dinero * porciento > imp) {
-        cout << "Se pago " << imp<<endl;
+      //  cout << "Se pago " << imp<<endl;
         huesped->Dinero -= imp;
         Monopoly->pozo += imp;
+        num = imp;
     } else {
-        cout << "Se pago " << huesped->Dinero * porciento<<endl;
-        Monopoly->pozo += huesped->Dinero*porciento;
-        huesped->Dinero -= huesped->Dinero*porciento;
+     //   cout << "Se pago " << huesped->Dinero * porciento<<endl;
+        Monopoly->pozo += huesped->Dinero * porciento;
+        num = huesped->Dinero * porciento;
+        huesped->Dinero -= num;
     }
 }
-
+/*
 void ArcaComunal::ejecutar(Jugador *huesped, tablero *Monopoly)
 {
     int i= Monopoly->Baraja_Arca.back();
@@ -549,17 +551,18 @@ void Fortuna::ejecutar(Jugador *huesped, tablero *Monopoly)
         if(i != 6)
             Monopoly->Baraja_Arca.push_front(i);
 }
+*/
 
-
-void GoToJail::ejecutar(Jugador * huesped, tablero* Monopoly) {
-    huesped->free= true;
-    huesped->posicion=Monopoly->jail;
-    cout<<"El jugador "<<huesped->nombre<<" esta en "<<huesped->posicion->nombre<<endl;
+void GoToJail::ejecutar(Jugador * huesped, tablero* Monopoly, bool& texto_1, int& num){
+    texto_1 = true;
+    huesped->free = false;
+    huesped->posicion = Monopoly->jail;
 }
 
-void ParadaLibre::ejecutar(Jugador *huesped, tablero* Monopoly) {
+void ParadaLibre::ejecutar(Jugador *huesped, tablero* Monopoly, bool& t1, int& num) {
+    t1 = true;
     huesped->Dinero+=Monopoly->pozo;
-    cout << "El jugador " << huesped->nombre << " ha ganado " << Monopoly->pozo << "." << endl;
+    num = Monopoly->pozo;
     Monopoly->pozo=0;
 }
 

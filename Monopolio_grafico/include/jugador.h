@@ -29,7 +29,7 @@ public:
     Jugador(int id_, std::string nombre_){
         posicion = nullptr;
         id = id_;
-        Dinero = 150;
+        Dinero = 1500;
         turnos_seguidos = 0;
         nombre = nombre_;
         free = true;
@@ -44,7 +44,7 @@ public:
     void deshipotecar();
     void comprar_casas();
     void vender_casas();
-    void opciones(vector<Jugador*> Orden);
+    void opciones(vector<Jugador*> Orden, int choice);
     void negociar(vector<Jugador*> Orden);
     void en_carcel(dado* A, dado* B);
     void cambiar_alquileres();

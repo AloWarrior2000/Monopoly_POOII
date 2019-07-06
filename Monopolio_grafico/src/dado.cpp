@@ -6,10 +6,16 @@
 #include "dado.h"
 #include <random>
 
-
+/*dado::dado()
+{
+    txt_dado.loadFromFile("1.png");
+    spr_dado.setTexture(txt_dado);
+    spr_dado.setPosition(800,350);
+}*/
 
 int dado::lanzar() {
     int lanzamiento = 1+ rand()%6;
+    //int lanzamiento = 4;
     std::cout << "El dado saco " << lanzamiento << std::endl;
     switch(lanzamiento)
     {
@@ -36,5 +42,9 @@ int dado::lanzar() {
     spr_dado.setPosition(800,350);
 //    return 1;
     return lanzamiento;
+    /*txt_dado.loadFromFile("5.png");
+    spr_dado.setTexture(txt_dado);
+    spr_dado.setPosition(800,350);
+    return 5;*/
 }
 
